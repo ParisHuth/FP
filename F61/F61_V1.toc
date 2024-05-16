@@ -1,0 +1,13 @@
+\contentsline {chapter}{\numberline {1}Basics}{7}{chapter.1}%
+\contentsline {paragraph}{Basics of Nuclear Magnetic Resonance}{7}{section*.3}%
+\contentsline {paragraph}{NMR signal}{7}{section*.4}%
+\contentsline {paragraph}{Relaxation Time}{7}{section*.5}%
+\contentsline {paragraph}{Chemical shift}{7}{section*.6}%
+\contentsline {chapter}{\numberline {2}Basics}{9}{chapter.2}%
+\contentsline {paragraph}{Basics of Nuclear Magnetic Resonance}{9}{section*.7}%
+\contentsline {paragraph}{NMR signal}{9}{section*.8}%
+\contentsline {paragraph}{Relaxation Time}{9}{section*.9}%
+\contentsline {paragraph}{Chemical shift}{9}{section*.10}%
+\contentsline {section}{\numberline {2.1}Measurements}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Analysis}{10}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Critical Discussion}{10}{section.2.3}%

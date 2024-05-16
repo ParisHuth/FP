@@ -1,0 +1,324 @@
+This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.7) (format=lualatex 2022.10.9)  15 MAY 2024 17:12
+ restricted system commands enabled.
+**F61_Basics.tex
+(./F61_Basics.tex
+LaTeX2e <2022-06-01> patch level 5
+Lua module: luaotfload 2022-06-15 3.22 Lua based OpenType font support
+Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "C:/Users/notchok/AppData/Local/MiKT
+eX/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2022-06-15.lua" from kpse-res
+olved path "C:/Program Files/MiKTeX/tex/luatex/luaotfload/fontloader-2022-06-15.
+lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.120
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/Users/notchok/AppData/Local/MiKT
+eX/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' at position 1 in `glyph_stream_provider'
+.
+Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
+er'.
+Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2022-07-04>
+Inserting `tracingstacklevels' at position 1 in `input_level_string'.
+! Undefined control sequence.
+l.1 \chapter
+          {Basics}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \chapter{B
+            asics}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.2 \paragraph
+            {Basics of Nuclear Magnetic Resonance}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--4
+[]Basics
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 4.
+luaotfload | db : Font names database loaded from C:/Users/notchok/AppData/Local
+/MiKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz
+Overfull \hbox (37.56158pt too wide) detected at line 6
+[] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 []
+ []
+
+
+Overfull \hbox (6.70831pt too wide) in paragraph at lines 6--8
+\OML/cmm/m/it/10 S$
+ []
+
+
+Overfull \hbox (12.07121pt too wide) in paragraph at lines 6--8
+[]$.
+ []
+
+
+Overfull \hbox (5.73285pt too wide) in paragraph at lines 6--8
+\OML/cmm/m/it/10 $
+ []
+
+
+LaTeX Warning: Command \. invalid in math mode on input line 9.
+
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
+.
+("C:/Program Files/MiKTeX/tex/latex/lm/ot1lmr.fd"
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+
+LaTeX Warning: Command \. invalid in math mode on input line 9.
+
+LaTeX Font Info:    Trying to load font information for +lmr on input line 9.
+LaTeX Font Info:    No file lmr.fd. on input line 9.
+LaTeX Font Info:    Trying to load font information for +cmr on input line 9.
+LaTeX Font Info:    No file cmr.fd. on input line 9.
+
+LaTeX Font Warning: Font shape `/lmr/m/n' undefined
+(Font)              using `/cmr/m/n' instead on input line 9.
+
+
+LaTeX Font Warning: Font shape `/cmr/m/n' undefined
+(Font)              using `/cmr/m/n' instead on input line 9.
+
+! Corrupted NFSS tables.
+wrong@fontshape ...message {Corrupted NFSS tables}
+                                                  error@fontshape else let f...
+l.9  \gamma_{proton} = 2.6752\cdot 10^8 \. \textrm
+                                                {sec}^{-1}\textrm{Tesla}^{-1}.
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+
+LaTeX Font Warning: Font shape `/cmr/m/n' undefined
+(Font)              using `OT1/cmr/m/n' instead on input line 9.
+
+
+LaTeX Font Warning: Font shape `/lmr/m/n' undefined
+(Font)              using `/cmr/m/n' instead on input line 9.
+
+! You can't use a prefix with `\aftergroup'.
+<to be read again> 
+\aftergroup 
+l.9  \gamma_{proton} = 2.6752\cdot 10^8 \. \textrm
+                                                {sec}^{-1}\textrm{Tesla}^{-1}.
+I'll pretend you didn't say \long or \outer or \global or
+\protected.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.9  \gamma_{proton} = 2.6752\cdot 10^8 \. \textrm
+                                                {sec}^{-1}\textrm{Tesla}^{-1}.
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! Missing { inserted.
+<to be read again> 
+\edef 
+l.9  \gamma_{proton} = 2.6752\cdot 10^8 \. \textrm
+                                                {sec}^{-1}\textrm{Tesla}^{-1}.
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
+
+! You can't use `\eqno' in math mode.
+\endequation ->\eqno 
+                     \hbox {\@eqnnum }$$\@ignoretrue 
+l.10  \end{equation}
+                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.10  \end{equation}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (161.21835pt too wide) detected at line 10
+\OML/cmm/m/it/10 [] \/lmr/m/n/10 = 2\OML/cmm/m/it/10 :\/lmr/m/n/10 6752 \OMS/c
+msy/m/n/10  \/lmr/m/n/10 10[][]
+ []
+
+
+Overfull \hbox (61.05496pt too wide) detected at line 14
+\/lmr/m/n/10 \OML/cmm/m/it/10 E \/lmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@[]  []\OML
+/cmm/m/it/10 :
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 T
+    his interaction yields both a parallel $\mu_+$ and antiparallel $\mu_-$ ...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 16--18
+[]This
+ []
+
+
+Overfull \hbox (12.6644pt too wide) in paragraph at lines 16--18
+\OML/cmm/m/it/10 []$
+ []
+
+
+Overfull \hbox (12.7755pt too wide) in paragraph at lines 16--18
+\OML/cmm/m/it/10 []$
+ []
+
+
+Overfull \hbox (9.12497pt too wide) in paragraph at lines 16--18
+\OML/cmm/m/it/10 N$
+ []
+
+
+Overfull \hbox (14.67363pt too wide) in paragraph at lines 16--18
+\OML/cmm/m/it/10 N[]$
+ []
+
+
+Overfull \hbox (14.78473pt too wide) in paragraph at lines 16--18
+\OML/cmm/m/it/10 N[]$\nullfont ,
+ []
+
+
+Overfull \hbox (9.12497pt too wide) in paragraph at lines 16--18
+\OML/cmm/m/it/10 N$\nullfont ,
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 $
+    $ N_\pm = N_0e^{-\frac{E_0\pm\Delta E}{kt}}$$
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 19--19
+[] 
+ []
+
+
+Overfull \hbox (79.57736pt too wide) detected at line 19
+\OML/cmm/m/it/10 N[] \/lmr/m/n/10 = \OML/cmm/m/it/10 N[]e[]
+ []
+
+! Undefined control sequence.
+l.21 \paragraph
+             {NMR signal}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.22 \paragraph
+             {Relaxation Time}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.23 \paragraph
+             {Chemical shift}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+! Emergency stop.
+<*> F61_Basics.tex
+               
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 83 strings out of 477475
+ 100000,383344 words of node,token memory allocated 7344 words of node memory still in use:
+   75 hlist, 7 vlist, 1 rule, 1 disc, 6 local_par, 1 dir, 11 math, 170 glue, 22 
+kern, 20 penalty, 1 sub_mlist, 658 glyph, 59 attribute, 39 glue_spec, 59 attribu
+te_list, 1 temp nodes
+   avail lists: 3:23,4:18,5:2,8:30,9:1,10:17
+ 21207 multiletter control sequences out of 65536+600000
+ 26 fonts using 1428375 bytes
+ 24i,6n,32p,184b,157s stack positions out of 10000i,1000n,20000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

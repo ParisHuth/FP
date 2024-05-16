@@ -1,0 +1,37 @@
+\section{Basics}
+\subsection{Basics of Nuclear Magnetic Resonance}
+
+Nuclear Magnetic Resonance techniques relay of the interaction between the magnetic dipole moment
+\begin{equation}
+\vec{\mu} = \hbar\gamma\vec{S} 
+\end{equation}
+ of nuclei with non-zero spin $S$ and an external magnetic field $\vec{B_0}$. In the following paper $\gamma$ represents the gyromagnetic ratio of protons:
+ \begin{equation}
+ \gamma_{proton} = 2.6752 \cdot 10^8 \, \textrm{sec}^{-1}\textrm{Tesla}^{-1}.
+ \end{equation}
+The resulting interaction energy is defines as:
+\begin{equation}
+\Delta E = -\vec{\mu}\cdot\vec{B}_0.
+\end{equation}
+
+In a classical description, this interaction yields two states for the orientation of the protons's magnetic dipole in the external magnetic field: $\mu_+$ (parallel) and $\mu_-$ (antiparalle).
+For a macroscopic sample of $N$ protons, both numbers of occupied states $N_+$ and $N_-$, the sum of which comprises $N$, can be approximated by a Boltzmann distribution:
+\begin{equation}
+ N_\pm = N_0e^{-\frac{E_0\pm\Delta E}{kt}}
+\end{equation}
+with $N_0$ as a normalization factor. However $N_+ > N_-$,since the parallel state is energetically favorale. The predominance of protons in the parallel state leads to a macroscopic magntization, whose ground state is
+\begin{equation}
+\vec{M}_0 = \frac{\mu N}{V}\sinh{\left(\frac{\mu B}{kT}\right)} \vec{e}_z .
+\end{equation}
+In our case, a weak field ($\mu B \gg kT$), the formar expresion simplifies to
+\begin{equation}
+\vec{M}_0 = \frac{N}{V} \frac{\hbar^2 \gamma^2 I(I+1)}{3kT}\vec{B}_0 \propto \frac{\vec{B}_0}{T},
+\end{equation}
+i.e the law of Curie.
+
+In general, the magnetization can have a macroscopic state characterized by $\vec{M}_0$ minimizes the energy.
+
+\subsection{NMR signal}
+\subsection{Relaxation Time}
+\subsection{Chemical shift}
+
