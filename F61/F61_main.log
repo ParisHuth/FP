@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.9)  21 MAY 2024 09:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.9)  22 MAY 2024 14:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -409,55 +409,82 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {C:/Users/notchok/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 67.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 68.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 67.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 68.
 
 Missing character: There is no ° in font cmr10!
 [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 99.
+(hyperref)                removing `math shift' on input line 100.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 99.
+(hyperref)                removing `subscript' on input line 100.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 99.
+(hyperref)                removing `math shift' on input line 100.
 
 [4]
 </Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/SpinEcho_GWM_still
-s.jpg, id=106, 803.0pt x 405.515pt>
+s.jpg, id=110, 803.0pt x 405.515pt>
 File: /Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/SpinEcho_GWM_
 stills.jpg Graphic file (type jpg)
 <use /Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/SpinEcho_GWM_s
 tills.jpg>
 Package pdftex.def Info: /Users/notchok/Documents/5. Semester/FP/FP/F61/Latex i
-mages/SpinEcho_GWM_stills.jpg  used on input line 109.
+mages/SpinEcho_GWM_stills.jpg  used on input line 110.
 (pdftex.def)             Requested size: 288.0011pt x 145.44077pt.
 </Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/spin_echo_signal.p
-ng, id=110, 676.32675pt x 328.8285pt>
+ng, id=114, 676.32675pt x 328.8285pt>
 File: /Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/spin_echo_sig
 nal.png Graphic file (type png)
 <use /Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/spin_echo_sign
 al.png>
 Package pdftex.def Info: /Users/notchok/Documents/5. Semester/FP/FP/F61/Latex i
-mages/spin_echo_signal.png  used on input line 118.
+mages/spin_echo_signal.png  used on input line 119.
 (pdftex.def)             Requested size: 288.0011pt x 140.02371pt.
  [5 </Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/SpinEcho_GWM_s
-tills.jpg>]) (F61_Measurements.tex) [6 </Users/notchok/Documents/5. Semester/FP
-/FP/F61/Latex images/spin_echo_signal.png>] (F61_main.aux)
+tills.jpg>]
+</Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/carr-purcell-seque
+nce2.jpg, id=129, 486.1362pt x 213.1965pt>
+File: /Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/carr-purcell-
+sequence2.jpg Graphic file (type jpg)
+<use /Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/carr-purcell-s
+equence2.jpg>
+Package pdftex.def Info: /Users/notchok/Documents/5. Semester/FP/FP/F61/Latex i
+mages/carr-purcell-sequence2.jpg  used on input line 134.
+(pdftex.def)             Requested size: 288.0011pt x 126.30533pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 141.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 141.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 141.
+
+[6 </Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/spin_echo_signa
+l.png>]) (F61_Measurements.tex) [7 </Users/notchok/Documents/5. Semester/FP/FP/
+F61/Latex images/carr-purcell-sequence2.jpg>] [8] (F61_main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `F61_main.out' has not changed.
-(rerunfilecheck)             Checksum: 8A186D2D69F1FCB9E618B5C636599FE8;1653.
+(rerunfilecheck)             Checksum: ECFAC4EE33A6C930350662E5CD42F88D;1857.
  ) 
 Here is how much of TeX's memory you used:
- 11802 strings out of 478338
- 189732 string characters out of 2846509
- 486760 words of memory out of 3000000
- 30033 multiletter control sequences out of 15000+600000
+ 11821 strings out of 478338
+ 190478 string characters out of 2846509
+ 486852 words of memory out of 3000000
+ 30042 multiletter control sequences out of 15000+600000
  479810 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,10n,77p,974b,451s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -476,9 +503,9 @@ ublic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts
 ><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program 
 Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/
 fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on F61_main.pdf (6 pages, 346993 bytes).
+Output written on F61_main.pdf (8 pages, 621056 bytes).
 PDF statistics:
- 210 PDF objects out of 1000 (max. 8388607)
- 42 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 237 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 120 words of extra memory for PDF output out of 10000 (max. 10000000)
 

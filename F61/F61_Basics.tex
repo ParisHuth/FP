@@ -47,6 +47,7 @@ If the magnetization is separated into parallel $\vec{M}_{\parallel}$ and perpen
 \end{equation}
 The last equation describes the precession of $\vec{M}_{\perp}$ around $\vec{B}_0$. The angular frequency of this process is called Larmor frequency
 \begin{equation}
+\label{eq: larmor freq}
 \omega_L = \gamma B_0.
 \end{equation}
 
@@ -123,6 +124,34 @@ The resulting signal is represented in Fig. \ref{fig: spin-echo signal}. There t
 \footnotetext{R. Schicker (2021, March 4). Nuclear Magnetic Resonance F61/F62 p. 13} 
 Due to Parseval's theorem it is possible to estimate the signal's strength by calculating the are under the spin-echo curvature in frequency space, which is given by a Gaussian profile. The decay curve of \ref{bloch + rot T2} is measured by varying the parameter $\tau$ in the 90-180 sequence.
 
-The Hahn echo finds its limitations when measuring the decay curvature for large $t$. For this cases the system 
+The Hahn echo finds its limitations when measuring the decay curvature for large $t$. In such cases the time evolution due to the field inhomogenieties is faster than the time scale of the measurement $\tau$, i.g the average Larmor frequencies in time intervals $0 < t < \tau$ and $\tau < t < 2 \tau$ can be different. Hence only partial coherence can be achieved leading to reduced signals and a reduced value for $T_2$.
+
+\paragraph{Carr-Pulcell sequence: }
+The Carr-Purcell methods consists of a 90° pulse that creates a transverse magnetization followed by repeated 180° pulse at odd multiples of $\tau$ that induce phase coherence at even multiples of $\tau$ as shown in Fig \ref{fig: carr-purcell sequence}. In this case $\tau$ is a small time interval. 
+The sequence is repeated over a large interval of time yielding a value closer to the real value of the spin-spin relaxation time.
+\begin{figure}[!htbp]
+ \begin{center}
+  \includegraphics[width=.8\textwidth]{/Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/carr-purcell-sequence2.jpg} 
+  \caption[]{ Carr-Purcell sequence. a) 90° pulse, b) dephasing of magnetization, c) 180° pulse at $t = \tau$, d) rephasing e) spin-echo/ coherence at $t = 2\tau$, f) dephasing, g) 180° pulse at $t = 3 \tau$, h) rephasing, i) spin-echo at $t = 4\tau$.  \footnotemark}
+  \label{fig: carr-purcell sequence}
+ \end{center}
+\end{figure}
+\footnotetext{ (2013, March 13). Physikalisches Praktikum im Bachelor-Studiengangander RWTH Aachen Versuch:Nuclear Magnetic Resonance(NMR) p. 16 }
+
+\subsubsection{Spin-lattice relaxation $T_1$}
+After a 180° pulse a magnetization $\vec{M}_\parallel$ is generated, which is anti-parallel relative to the orientation of the field $B_0$. The system's time evolution is describe by the solution of \ref{bloch + rot T1}
+\begin{equation}
+\vec{M}_\parallel(t) = \vec{M}_0\left( 1 - 2\exp^{t/T_1}\right).
+\end{equation}
+Since the an anti-parallel state doesn't produce a signal a 90° pulse at time $t = \tau$ is used to transform the magnetization into a transverse one. The signal at $t = \tau$ is proportional to the initial longitudinal state. The decay curve of $\vec{M}_\parallel$ can be measured by varying the value of $\tau$ in the pulse sequence 180°-90°. 
 \subsection{Chemical shift}
+Protons that are bounded to molecules do not interact with the external magnetic field alone, but rather with a field, $\vec{B}_{tot}$ modified by the magnetic shielding of the electron orbitals. Hence, according to equation \ref{eq: larmor freq}, the Larmor frequency of the protons is also modified:
+\begin{equation}
+\omega_i = \omega_L\left( 1 - \sigma_i\right).
+\end{equation}
+Here $\omega_L$ is the free Larmor frequency, $\omega_i$ is the frequency modified by the chemical shift and $\sigma_i$ stands for the shielding factor, which characterized the molecule and each nucleus within the molecule.
+In order to use this characteristic shielding factor to identify  the molecule Tetra-Methyl-Silan (TMS) was used as reference substance. Under this condition the chemical shift $\delta_i$ is given by:
+\begin{equation}
+\delta_i = \sigma_i - \sigma_{TMS} = \frac{\omega_{TMS} - \omega_i}{\omega_L}.
+\end{equation}
 \subsection{Imagin with NMR}
