@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.23)  23 MAY 2024 12:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.23)  24 MAY 2024 13:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -370,7 +370,14 @@ dftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count298
 \l__pdf_internal_box=\box56
-) (F61_main.aux)
+) (F61_main.aux
+
+LaTeX Warning: Label `fig:subsidebyside' multiply defined.
+
+
+LaTeX Warning: Label `fig:subsidebyside' multiply defined.
+
+)
 \openout1 = `F61_main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -471,39 +478,157 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
 (C:\Users\notchok\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(F61_Results.tex) [1
+(F61_Basics.tex [1
 
-{C:/Users/notchok/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (F61_m
-ain.aux)
+{C:/Users/notchok/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 69.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 69.
+
+Missing character: There is no ° in font cmr10!
+[2{C:/Program Files/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 103.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 103.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 103.
+
+[3]
+</Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/SpinEcho_GWM_still
+s.jpg, id=130, 803.0pt x 405.515pt>
+File: /Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/SpinEcho_GWM_
+stills.jpg Graphic file (type jpg)
+<use /Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/SpinEcho_GWM_s
+tills.jpg>
+Package pdftex.def Info: /Users/notchok/Documents/5. Semester/FP/FP/F61/Latex i
+mages/SpinEcho_GWM_stills.jpg  used on input line 117.
+(pdftex.def)             Requested size: 260.17464pt x 131.38861pt.
+</Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/carr-purcell-seque
+nce2.jpg, id=135, 486.1362pt x 213.1965pt>
+File: /Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/carr-purcell-
+sequence2.jpg Graphic file (type jpg)
+<use /Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/carr-purcell-s
+equence2.jpg>
+Package pdftex.def Info: /Users/notchok/Documents/5. Semester/FP/FP/F61/Latex i
+mages/carr-purcell-sequence2.jpg  used on input line 143.
+(pdftex.def)             Requested size: 260.17464pt x 114.09966pt.
+ [4 </Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/SpinEcho_GWM_s
+tills.jpg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 150.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 150.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 150.
+
+[5 </Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/carr-purcell-se
+quence2.jpg>]
+</Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/chemical-shift.png
+, id=160, 357.13425pt x 283.65974pt>
+File: /Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/chemical-shif
+t.png Graphic file (type png)
+<use /Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/chemical-shift
+.png>
+Package pdftex.def Info: /Users/notchok/Documents/5. Semester/FP/FP/F61/Latex i
+mages/chemical-shift.png  used on input line 170.
+(pdftex.def)             Requested size: 260.17464pt x 206.65004pt.
+ [6 </Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/chemical-shift
+.png>] [7]) (F61_Measurements.tex [8]) (F61_Results.tex
+<./Protocol images/GD500_T2_sp_fit (1).jpg, id=195, 402.75468pt x 222.07968pt>
+File: ./Protocol images/GD500_T2_sp_fit (1).jpg Graphic file (type jpg)
+<use ./Protocol images/GD500_T2_sp_fit (1).jpg>
+Package pdftex.def Info: ./Protocol images/GD500_T2_sp_fit (1).jpg  used on inp
+ut line 9.
+(pdftex.def)             Requested size: 195.12767pt x 107.59329pt.
+<./Protocol images/GD60_Sp (1).png, id=196, 402.75468pt x 227.34938pt>
+File: ./Protocol images/GD60_Sp (1).png Graphic file (type png)
+<use ./Protocol images/GD60_Sp (1).png>
+Package pdftex.def Info: ./Protocol images/GD60_Sp (1).png  used on input line 
+16.
+(pdftex.def)             Requested size: 195.12767pt x 110.14636pt.
+<./Protocol images/GD500_T2_cp_fit.jpg, id=197, 378.66469pt x 196.48407pt>
+File: ./Protocol images/GD500_T2_cp_fit.jpg Graphic file (type jpg)
+<use ./Protocol images/GD500_T2_cp_fit.jpg>
+Package pdftex.def Info: ./Protocol images/GD500_T2_cp_fit.jpg  used on input l
+ine 28.
+(pdftex.def)             Requested size: 195.12767pt x 101.24889pt.
+<./Protocol images/GD600_CP_fit (1).jpg, id=198, 378.66469pt x 201.00093pt>
+File: ./Protocol images/GD600_CP_fit (1).jpg Graphic file (type jpg)
+<use ./Protocol images/GD600_CP_fit (1).jpg>
+Package pdftex.def Info: ./Protocol images/GD600_CP_fit (1).jpg  used on input 
+line 35.
+(pdftex.def)             Requested size: 195.12767pt x 103.57643pt.
+<./Protocol images/GD500_T1 (1).png, id=199, 398.99063pt x 228.855pt>
+File: ./Protocol images/GD500_T1 (1).png Graphic file (type png)
+<use ./Protocol images/GD500_T1 (1).png>
+Package pdftex.def Info: ./Protocol images/GD500_T1 (1).png  used on input line
+ 47.
+(pdftex.def)             Requested size: 195.12767pt x 111.92342pt.
+<./Protocol images/GD600_T1 (1).jpg, id=200, 398.23781pt x 227.34938pt>
+File: ./Protocol images/GD600_T1 (1).jpg Graphic file (type jpg)
+<use ./Protocol images/GD600_T1 (1).jpg>
+Package pdftex.def Info: ./Protocol images/GD600_T1 (1).jpg  used on input line
+ 54.
+(pdftex.def)             Requested size: 195.12767pt x 111.39522pt.
+ [9 <./Protocol images/GD500_T2_sp_fit (1).jpg> <./Protocol images/GD60_Sp (1).
+png> <./Protocol images/GD500_T2_cp_fit.jpg> <./Protocol images/GD600_CP_fit (1
+).jpg>]
+[10 <./Protocol images/GD500_T1 (1).png> <./Protocol images/GD600_T1 (1).jpg>])
+[11] (F61_main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `F61_main.out' has not changed.
-(rerunfilecheck)             Checksum: 4D3C4BE4A457EFF944742225154EFC69;586.
+(rerunfilecheck)             Checksum: 99D5A3329BC6A3612AA92519FF811E0E;3033.
  ) 
 Here is how much of TeX's memory you used:
- 12517 strings out of 474485
- 198150 string characters out of 5742790
+ 12733 strings out of 474485
+ 204378 string characters out of 5742790
  1937542 words of memory out of 5000000
- 34635 multiletter control sequences out of 15000+600000
- 567788 words of font info for 74 fonts, out of 8000000 for 9000
+ 34776 multiletter control sequences out of 15000+600000
+ 569674 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,487b,439s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,974b,550s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/notchok/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmbx10.pfb><C:/Users/notchok/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmbx12.pfb><C:/Users/notchok/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb><C:/Users/notchok/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/notchok/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/notchok/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/notc
-hok/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/U
-sers/notchok/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.
-pfb><C:/Users/notchok/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb>
-Output written on F61_main.pdf (2 pages, 115922 bytes).
+ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/notchok/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/notchok/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/notchok/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/not
+chok/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Users/notchok/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+12.pfb><C:/Users/notchok/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmr17.pfb><C:/Users/notchok/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr6.pfb><C:/Users/notchok/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/notchok/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/notchok/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/notchok/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/notch
+ok/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/U
+sers/notchok/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/
+msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on F61_main.pdf (11 pages, 885404 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 317 PDF objects out of 1000 (max. 8388607)
+ 75 named destinations out of 1000 (max. 500000)
+ 214 words of extra memory for PDF output out of 10000 (max. 10000000)
 
