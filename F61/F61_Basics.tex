@@ -1,4 +1,4 @@
-\section{Basics}
+\section{Theoretical and technical background}
 \subsection{Basics of Nuclear Magnetic Resonance}
 
 Nuclear Magnetic Resonance techniques relay of the interaction between the magnetic dipole moment
@@ -107,7 +107,7 @@ Due to the magnetic interactions between the sample's protons with themselves, a
 the protons at different positions to precess with different frequencies. Hence a dephasing of the microscopic magnetization takes place, i.e $\vec{M}_\perp$ decays to zero. This process is called spin-spin relaxation and it's characterized by $T_2$. Said decay is described by the solution of eq. \ref{bloch + rot T2}:
 \begin{equation}
 \label{eq: sol. bloch T2}
-\vec{M}_{\perp}(t)= \vec{M}_\perp^{0}\exp^{-\frac{t}{T_2}}.
+\vec{M}_{\perp}(t)= \vec{M}_\perp^{0}e^{-\frac{t}{T_2}}.
 \end{equation}
 In the following experiment two different methods were used to measure $T_2$: 1) spin-echo/ Hahn echo method and 2) Carr-Purcell sequence. In both cases a 180° pulse is used to reverse the dephasing. 
 \paragraph{Spin-Echo:}
@@ -151,7 +151,7 @@ The sequence is repeated over a large interval of time yielding a value closer t
 An anti-parallel state will also decay by giving energy to its surroundings, this is the spin-lattice relaxation and it's described by  the solution of \ref{bloch + rot T1}
 \begin{equation}
 \label{eq: sol. bloch T1}
-\vec{M}_\parallel(t) = \vec{M}_0\left( 1 - 2\exp^{t/T_1}\right).
+\vec{M}_\parallel(t) = \vec{M}_0\left( 1 - 2e^{t/T_1}\right).
 \end{equation}
 
 After a 180° pulse a magnetization $\vec{M}_\parallel$ is generated, which is anti-parallel relative to the orientation of the field $B_0$. Since the an anti-parallel state doesn't produce a signal a 90° pulse at time $t = \tau$ is used to transform the magnetization into a transverse one. The signal at $t = \tau$ is proportional to the initial longitudinal state. The decay curve of $\vec{M}_\parallel$ can be measured by varying the value of $\tau$ in the pulse sequence 180°-90°. 
@@ -168,12 +168,13 @@ In order to use this characteristic shielding factor to identify  the molecule T
 \begin{figure}[!htbp]
  \begin{center}
   \includegraphics[width = .6\textwidth]{/Users/notchok/Documents/5. Semester/FP/FP/F61/Latex images/chemical-shift.png}
-  \caption[]{Chemical shift $\delta_i of differnt compounds relative to TMS$  \footnotemark}
-    \label{fig: spin-echo signal}
+  \caption[]{Chemical shift $\delta_i$ of differnt compounds relative to TMS \footnotemark}
+    \label{fig: chemical shift}
  \end{center}
 \end{figure}
 \footnotetext{R. Schicker (2021, March 4). Nuclear Magnetic Resonance F61/F62 p. 19} 
-\subsection{Imagin with NMR}
+
+s\subsection{Imagin with NMR}
 The imaging measurements in the experiment were made with the Bruker NMR analyzer mq7.5. 
 In order to carry out measurements which contain information on the position of the produced NMR signal, position dependent fields are implemented. These fields are superimposed to the static field $\vec{B}_0$ which defines the z-axis. In the used set up all gradients are parallel to the static field and are linear functions of the corresponding coordinate.
 $$\vec{B}^x = (0,0,G^x\cdot x)^T$$
@@ -188,11 +189,11 @@ Due to the field gradient the Larmor frequency becomes a linear function of posi
 \end{equation}
 After taking the rotating frame into consideration, where $\vec{M}_\perp$ is given by \ref{bloch + rot T2} and will be denoted as $\vec{M}_\perp^{rot}$, and the position dependent Larmor frequency we can write the transverse magnetization as
 \begin{equation}
-\vec{M}_\perp(z, t) = M_\perp^{rot}(z,t)\exp^{i\gamma(B_0 + G^{z}z)t}.
+\vec{M}_\perp(z, t) = M_\perp^{rot}(z,t)e^{i\gamma(B_0 + G^{z}z)t}.
 \end{equation}
 Using this expression one finds that the NMR signal is, apart from a phase factor, the Fourier transformation of the transverse magnetization $M_\perp^{rot}$:
 \begin{equation}
-S(t)\propto \exp^{i\Omega t} \int_{V} M_\perp^{rot}(z,t) \exp^{i\omega_z t} d\vec{x}.
+S(t)\propto e^{i\Omega t} \int_{V} M_\perp^{rot}(z,t) e^{i\omega_z t} d\vec{x}.
 \end{equation}
 Hence $M_\perp^{rot(z)}$ can be deduced from the measured NMR signal $S(t)$ by a 1 dimensional Fourier transformation signal.
 
