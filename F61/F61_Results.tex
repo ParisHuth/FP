@@ -238,18 +238,34 @@ describes a convex curve. Therefore we conclude that the oil pouring down throug
    \end{center}
  \end{figure}
 \paragraph{2 dimensional imaging}
-For the 2D imaging we used a steam of celery, a peanut and a pecan peanut. 
-When studying the peanut we first observe that due to the lack of water or fat in the nut's shell, it does not emit any NMR. Hence, in the taken scan we can only see the inner structures of the peanut. In the scans in Fig. \ref{fig:nut vertical} clearly observe both nuts and in the upper one we can descry the air gap between the two halfs of the nut. This gap can also be seen, with less resolution, in the horizontal scan, see Fig. \ref{fig:nut horizontal}.
+%For the 2D imaging we used a steam of celery, a peanut and a pecan peanut. 
+To get familiar with the measuring set up we started by taking horizontal and vertical scans of a vial filled with oil, see Fig. \ref{fig:oil horizontal} \& \ref{fig:oil vertical}. As expected, the measured signals are constant at the position of the probe tube, thus the images show the geometry of the used probe tube. 
 
-Analogously for the pecan, the shell does not emit any NMR signal, thus we can only see the inner nut. See Fig. \ref{fig:pecan}. 
+When studying a peanut we first observe that due to the lack of water or fat in the nut's shell, it does not emit any NMR. Hence, in the taken scan we can only see the inner structures of the peanut. In the scans in Fig. \ref{fig:nut vertical} clearly observe both nuts and in the upper one we can descry the air gap between the two halfs of the nut. This gap can also be seen, with less resolution, in the horizontal scan, see Fig. \ref{fig:nut horizontal}.
 
-Lastly we placed a celery in the NMR machine, its horizontal profile can be seen in Fig. \ref{fig:celery}. There we can see the C-shape of the branch. In the inner of the celery we also see slightly darker spots, which corresponds to holes filled with water. These spots are more visible for $y \in [5, 20]$, however the resolution still not ideal. 
+Analogously if we place a pecan in the NMRI device, the shell does not emit any NMR signal, thus we can only see the inner nut. See Fig. \ref{fig:pecan}. 
+
+Lastly we place a celery in the NMR machine, its horizontal profile can be seen in Fig. \ref{fig:celery}. There we can see the C-shape of the branch. In the inner of the celery we also see slightly darker spots, which corresponds to holes filled with water. These spots are better visible in range $y \in [5, 20]$, however the resolution still not ideal. 
 \begin{figure}[ht]
     \centering
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
+        \includegraphics[width=\textwidth]{./Latex images/oil_vertical.png}
+        \caption{ vertical scan of oil}
+        \label{fig:oil vertical}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{./Latex images/oil_horizontal.png}
+        \caption{horizontal scan of oil}
+        \label{fig:oil horizontal}
+    \end{subfigure}
+    \vskip\baselineskip
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
         \includegraphics[width=\textwidth]{./Latex images/nut_airgap.png}
-        \caption{ vertical scan of peanut}
+        \caption{vertical scan of peanut}
         \label{fig:nut vertical}
     \end{subfigure}
     \hfill
@@ -259,7 +275,7 @@ Lastly we placed a celery in the NMR machine, its horizontal profile can be seen
         \caption{horizontal scan of peanut}
         \label{fig:nut horizontal}
     \end{subfigure}
-    \vskip\baselineskip
+        \vskip\baselineskip
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{./Latex images/pecan.png}
@@ -270,11 +286,12 @@ Lastly we placed a celery in the NMR machine, its horizontal profile can be seen
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{./Latex images/cellerie.png}
-        \caption{horizontal scan of peanut}
+        \caption{horizontal scan of celery}
         \label{fig:celery}
     \end{subfigure}
     \caption{2D profiles of different objects}
     \label{fig:NMRI}
+    
 \end{figure}
 
 

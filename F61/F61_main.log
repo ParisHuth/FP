@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.23)  26 MAY 2024 18:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.23)  26 MAY 2024 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -675,30 +675,44 @@ Package pdftex.def Info: ./Latex images/time_evolution.jpg  used on input line
 (pdftex.def)             Requested size: 433.62pt x 154.86469pt.
  [15 <./Protocol images/III/three_profiles.png> <./Latex images/time_evolution.
 jpg>]
-<./Latex images/nut_airgap.png, id=298, 356.83313pt x 272.51813pt>
+<./Latex images/oil_vertical.png, id=301, 349.305pt x 271.0125pt>
+File: ./Latex images/oil_vertical.png Graphic file (type png)
+<use ./Latex images/oil_vertical.png>
+Package pdftex.def Info: ./Latex images/oil_vertical.png  used on input line 25
+3.
+(pdftex.def)             Requested size: 195.12767pt x 151.39377pt.
+<./Latex images/oil_horizontal.png, id=302, 350.05782pt x 271.76532pt>
+File: ./Latex images/oil_horizontal.png Graphic file (type png)
+<use ./Latex images/oil_horizontal.png>
+Package pdftex.def Info: ./Latex images/oil_horizontal.png  used on input line 
+260.
+(pdftex.def)             Requested size: 195.12767pt x 151.48672pt.
+<./Latex images/nut_airgap.png, id=303, 356.83313pt x 272.51813pt>
 File: ./Latex images/nut_airgap.png Graphic file (type png)
 <use ./Latex images/nut_airgap.png>
-Package pdftex.def Info: ./Latex images/nut_airgap.png  used on input line 251.
+Package pdftex.def Info: ./Latex images/nut_airgap.png  used on input line 267.
 
 (pdftex.def)             Requested size: 195.12767pt x 149.02051pt.
-<./Latex images/nut_horizontal.png, id=299, 350.81062pt x 272.51813pt>
+<./Latex images/nut_horizontal.png, id=304, 350.81062pt x 272.51813pt>
 File: ./Latex images/nut_horizontal.png Graphic file (type png)
 <use ./Latex images/nut_horizontal.png>
 Package pdftex.def Info: ./Latex images/nut_horizontal.png  used on input line 
-258.
+274.
 (pdftex.def)             Requested size: 195.12767pt x 151.582pt.
-<./Latex images/pecan.png, id=300, 353.06906pt x 272.51813pt>
+<./Latex images/pecan.png, id=305, 353.06906pt x 272.51813pt>
 File: ./Latex images/pecan.png Graphic file (type png)
 <use ./Latex images/pecan.png>
-Package pdftex.def Info: ./Latex images/pecan.png  used on input line 265.
+Package pdftex.def Info: ./Latex images/pecan.png  used on input line 281.
 (pdftex.def)             Requested size: 195.12767pt x 150.60896pt.
-<./Latex images/cellerie.png, id=301, 353.06906pt x 275.52937pt>
+<./Latex images/cellerie.png, id=306, 353.06906pt x 275.52937pt>
 File: ./Latex images/cellerie.png Graphic file (type png)
 <use ./Latex images/cellerie.png>
-Package pdftex.def Info: ./Latex images/cellerie.png  used on input line 272.
+Package pdftex.def Info: ./Latex images/cellerie.png  used on input line 288.
 (pdftex.def)             Requested size: 195.12767pt x 152.27315pt.
-) [16 <./Latex images/nut_airgap.png> <./Latex images/nut_horizontal.png> <./La
-tex images/pecan.png> <./Latex images/cellerie.png>] (F61_main.aux)
+) [16]
+[17 <./Latex images/oil_vertical.png> <./Latex images/oil_horizontal.png> <./La
+tex images/nut_airgap.png> <./Latex images/nut_horizontal.png> <./Latex images/
+pecan.png> <./Latex images/cellerie.png>] (F61_main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -711,10 +725,10 @@ Package rerunfilecheck Info: File `F61_main.out' has not changed.
 (rerunfilecheck)             Checksum: E948AF59BB24745D4994F9721527E86C;3162.
  ) 
 Here is how much of TeX's memory you used:
- 12917 strings out of 474485
- 209609 string characters out of 5742790
+ 12936 strings out of 474485
+ 210244 string characters out of 5742790
  1940542 words of memory out of 5000000
- 34942 multiletter control sequences out of 15000+600000
+ 34960 multiletter control sequences out of 15000+600000
  569674 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,974b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -737,9 +751,9 @@ Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/notch
 ok/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/U
 sers/notchok/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/
 msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on F61_main.pdf (16 pages, 1213977 bytes).
+Output written on F61_main.pdf (17 pages, 1247563 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 93 named destinations out of 1000 (max. 500000)
- 304 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 414 PDF objects out of 1000 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
+ 314 words of extra memory for PDF output out of 10000 (max. 10000000)
 
