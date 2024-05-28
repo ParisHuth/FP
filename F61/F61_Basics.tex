@@ -6,7 +6,7 @@ Nuclear Magnetic Resonance techniques relay of the interaction between the magne
 \label{magnetic dipole moment}
 \vec{\mu} = \hbar\gamma\vec{S} 
 \end{equation}
- of nuclei with non-zero spin $S$ and an external magnetic field $\vec{B_0}$. In the following paper $\gamma$ represents the gyro-magnetic ratio of protons:
+ of nuclei with non-zero spin $S$ and an external magnetic field $\vec{B_0}$. Here $\gamma$ represents the gyro-magnetic ratio of protons:
 $$ \gamma_{proton} = 2.6752 \cdot 10^8 \, \textrm{sec}^{-1}\textrm{Tesla}^{-1}.
 $$The resulting interaction energy, also called spin-lattice contribution, is defines as:
 \begin{equation}
@@ -14,21 +14,21 @@ $$The resulting interaction energy, also called spin-lattice contribution, is de
 \Delta E = -\vec{\mu}\cdot\vec{B}_0.
 \end{equation}
 
-This interaction yields two states for the orientation of the protons's magnetic dipole in the external magnetic field: $\mu_+$ (parallel) and $\mu_-$ (antiparalle).
-For a macroscopic sample of $N$ protons, both numbers of occupied states $N_+$ and $N_-$, the sum of which comprises $N$, can be approximated by a Boltzmann distribution
+This interaction yields two states for the orientation of the protons' magnetic dipole in the external magnetic field: $\mu_+$ (parallel) and $\mu_-$ (anti-parallel).
+For a macroscopic sample of $N$ protons, both numbers of occupied states $N_+$ and $N_-$, the sum of which comprises $N$, can be approximated by a Boltzmann distribution.
 %:
 %\begin{equation}
 %\label{ocupation number}
 % N_\pm = N_0e^{-\frac{E_0\pm\Delta E}{kt}}
 %\end{equation}
 %with $N_0$ as a normalization factor. 
-, however $N_+ > N_-$, since the parallel state is energetically favorable. The predominance of protons in the parallel state leads to a macroscopic magnetization.
+Due to the parallel state being energetically favorable, one observes $N_+>N_-$. The predominance of protons in the parallel state leads to a macroscopic magnetization.
 % whose ground state is
 %\begin{equation}
 %\label{magnetization ground state}
 %\vec{M}_0 = \frac{\mu N}{V}\sinh{\left(\frac{\mu B}{kT}\right)} \vec{e}_z .
 %\end{equation}
-In our case, a weak field ($\mu B \gg kT$), the ground state of the system can be approximated by
+In our case, of a weak field ($\mu B \gg kT$), the ground state of the system can be approximated by:
 \begin{equation}
 \label{ground state approx}
 \vec{M}_0 = \frac{N}{V} \frac{\hbar^2 \gamma^2 I(I+1)}{3kT}\vec{B}_0 \propto \frac{\vec{B}_0}{T},
@@ -37,21 +37,24 @@ i.e the law of Curie.
 
 In general, the magnetization can have an arbitrary orientation related to the external magnetic field, however such a system will decay asymptotically into the ground state, since $\vec{M}_0$ minimizes the energy. 
 
-The interaction between the macroscopic magnetization and the external magnetic field result in a torque
+The interaction between the macroscopic magnetization and the external magnetic field result in a torque:
 \begin{equation}
 \vec{\tau} = \gamma\vec{M} \wedge\vec{B}_0.
 \end{equation}
-If the magnetization is separated into parallel $\vec{M}_{\parallel}$ and perpendicular $\vec{M}_{\perp}$ components, relative to the external field, we quickly see that only the later gives a none trivial expression. Without any relaxation processes, the rate of change of the former is given by
+If the magnetization is separated into parallel $\vec{M}_{\parallel}$ and perpendicular $\vec{M}_{\perp}$ components, relative to the external field, we  see that only the later gives a non-trivial expression. Without any relaxation processes, the rate of change of the former is given by:
 \begin{equation}
 \frac{d \vec{M}_{\perp}}{dt} = -\vec{M}_{\perp}\wedge\vec{B}_0.
 \end{equation}
-The last equation describes the precession of $\vec{M}_{\perp}$ around $\vec{B}_0$. The angular frequency of this process is called Larmor frequency
+The last equation describes the precession of $\vec{M}_{\perp}$ around $\vec{B}_0$. The angular frequency of this process is called the Larmor frequency:
 \begin{equation}
 \label{eq: larmor freq}
 \omega_L = \gamma B_0.
 \end{equation}
 
 Generating a transverse or anti-parallel magnetization to $\vec{B}_0$ can be achieved by applying a high frequency pulse to the ground state magnetization $\vec{M}_0$. 
+
+For a static magnetic field $\vec{B}_0$ pointing in the z-direction, and a coil oriented along the x-axis. Applying a sinusoidal voltage with a frequency $\omega_H$, would generate a solenoid magnetic field $\vec{B}_1$
+
 Let the static magnetic field $\vec{B}_0$ be pointing in z-direction. Now consider a coil oriented along the x-axis, if a sinusoidal voltage with frequency $\omega_H$ is applied it would generate a solenoid magnetic field $\vec{B}_1(t)$ polarized along the x-direction. Under this conditions the torque  acquires a second term:
 \begin{equation}
 \vec{\tau} = \vec{M}_0\wedge(\vec{B}_0 + \vec{B}_1(t)
