@@ -41,7 +41,7 @@ The interaction between the macroscopic magnetization and the external magnetic 
 \begin{equation}
 \vec{\tau} = \gamma\vec{M} \wedge\vec{B}_0.
 \end{equation}
-If the magnetization is separated into parallel $\vec{M}_{\parallel}$ and perpendicular $\vec{M}_{\perp}$ components, relative to the external field, we  see that only the later gives a non-trivial expression. Without any relaxation processes, the rate of change of the former is given by:
+If the magnetization is separated into parallel $\vec{M}_{\parallel}$ and perpendicular $\vec{M}_{\perp}$ components, relative to the external field, we  see that only the later gives a non-trivial expression. Without any relaxation processes, the rate of change of $vec{M}_\perp$ is given by:
 \begin{equation}
 \frac{d \vec{M}_{\perp}}{dt} = -\vec{M}_{\perp}\wedge\vec{B}_0.
 \end{equation}
@@ -58,7 +58,7 @@ For a static magnetic field $\vec{B}_0$ pointing in the z-direction, and a coil 
 \vec{\tau} = \vec{M}_0\wedge(\vec{B}_0 + \vec{B}_1(t)
 \end{equation}
 which induces a second precession around the x-axis.
-For a pulse duration, which is short relative to the relaxation time, the magnitude of the magnetization is approximately constant. In this case the vector $\vec{M}$ moves in a sphere with radius $|\vec{M}_0|$. The vector coordinates in the sphere are then given by a azimuthal angle $\varphi$, which is defined by the precession induced by $\vec{B}_0$, and by a polar angle $\theta$ which arises from the interaction with the solenoid field. Both angles are a functions of time:
+For a pulse duration, which is short relative to the relaxation time, the magnitude of the magnetization is approximately constant. In this case the vector $\vec{M}$ moves in a sphere with radius $|\vec{M}_0|$. The vector coordinates in the sphere are then given by a azimuthal angle $\varphi$, which is defined by the precession induced by $\vec{B}_0$, and by a polar angle $\theta$ which arises from the interaction with the solenoid field. Both angles are functions of time:
 \begin{equation}
 \varphi = \omega_L t
 \end{equation}
@@ -67,10 +67,10 @@ For a pulse duration, which is short relative to the relaxation time, the magnit
 \end{equation}
 
 A pulse which induces a  polar angle $\theta = 90$° is called a 90° pulse. For such a pulse the ground state magnetization is transformed into transverse magnetization $\vec{M}_{\perp}$%, with $\vec{M}_{\parallel} = 0$
-. Analogously a pulse which generates $\theta = 180°$ is called a 180° pulse. Such a pulse transforms the ground state into an anti-parallel magnetization $\vec{M}_{\perp} = -\vec{M}_0$. %, with $\vec{M}_{\parallel} = 0$.
+. Analogously a pulse which generates $\theta = 180°$ is called a 180° pulse. Such a pulse transforms the ground state into an anti-parallel magnetization $\vec{M}_{\parallel} = -\vec{M}_0$. %, with $\vec{M}_{\parallel} = 0$.
 \subsection{NMR signal}
 \subsubsection{Signal generation}
-In the set up used for this experiment, the high frequency pulses of fixed frequency $\omega_{HF} = 19.8$ MHz were generated in an electronic unit of the minispec p20. Said pulses induce a precession around the z-axis, that change the magnetic flux through the coil in time, resulting in a induction signal modulating by the Larmor frequency $\omega_L$, which could be set up by hand. This signal is fed back to the p20 electronic unit, where both the high frequency and the induction signals are mixed into an output given by the multiplication of both inputs, i.g the sum of two cosine functions. One of the terms depends on the working frequency, which is given by the difference between $\omega_L$ and $\omega_{HF}$, and is on the order of few hundred Hertz, while the second one in the range of 40MHz. The use of a low frequency bandpass filter allows to get rid of the former signal.   
+In the set up used for this experiment, the high frequency pulses of fixed frequency $\omega_{HF} = 19.8$ MHz were generated in an electronic unit of the minispec p20. Said pulses induce a precession around the z-axis, that change the magnetic flux through the coil in time, resulting in a induction signal modulating by the Larmor frequency $\omega_L$, which could be set up by hand. This signal is fed back to the p20 electronic unit, where both the high frequency and the induction signals are mixed into an output given by the multiplication of both inputs, i.g the sum of two cosine functions. One of the terms depends on the working frequency, which is given by the difference between $\omega_L$ and $\omega_{HF}$, and is on the order of few hundred Hertz, while the second one in the range of 40MHz. The use of a low frequency bandpass filter allows to get rid of the later signal.   
 \subsection{Relaxation Time}
 \subsubsection{Bloch equations}
 For the description of the precession of $\vec{M}_{\perp}$ it is possible to define a rotating reference system $(x', y', z)$. This reference frame is defined by 2 condition: 1) the $(x', y')$-plane rotate in the static $(x, y)$-plane and 2) $\vec{M}_{\perp}$ points in the $x'$-direction.
@@ -112,13 +112,14 @@ the protons at different positions to precess with different frequencies. Hence 
 \end{equation}
 In the following experiment two different methods were used to measure $T_2$: 1) spin-echo/ Hahn echo method and 2) Carr-Purcell sequence. In both cases a 180° pulse is used to reverse the dephasing. 
 \paragraph{Spin-Echo:}
-The spin echo method consist on a 90° pulse that creates a transverse magnetization followed by a 180° pulse at $t = \tau$ that reverts the dephasing. One could imagine exchanging the position of protons that presses faster with the
+The spin echo method consist on a 90° pulse that creates a transverse magnetization followed by a 180° pulse at $t = \tau$ that reverts the dephasing. The 180° rotation along the x-axis caused by said pulse exchanges the position of protons that presses faster with the
 % TODO: not sure about the wording
- slow ones.  After the pulse, all particles keep on rotating clockwise, such that at $t = 2\tau$ the fast protons catch up with the slow ones generating a spin-echo. The process is illustrated in Fig. \ref{fig: spin-echo}. 
+ slow ones, but keeps the rotation direction invariant, all particles keep on rotating clockwise. Thus at $t = 2\tau$ the fast protons catch up with the slow ones generating a spin-echo. The process is illustrated in Fig. \ref{fig: spin-echo}. 
+ 
 \begin{figure}[!htbp]
  \begin{center}
   \includegraphics[width = .6\textwidth]{Latex images/SpinEcho_GWM_stills.jpg}
-  \caption[]{Spin-echo method. a) system in ground state, b) 90° pulse, c) dephasing, c) 180° pulse, d) rephasing, e) coherence/ spin-echo  \footnotemark}
+  \caption[]{Spin-echo method. a) system in ground state, b) 90° pulse, c) dephasing, c) 180° pulse, d) rephasing, e) coherence state/ spin-echo  \footnotemark}
     \label{fig: spin-echo}
  \end{center}
 \end{figure}
@@ -134,7 +135,7 @@ The spin echo method consist on a 90° pulse that creates a transverse magnetiza
 %\footnotetext{R. Schicker (2021, March 4). Nuclear Magnetic Resonance F61/F62 p. 13} 
 Due to Parseval's theorem it is possible to estimate the signal's strength by calculating the area under the spin-echo curvature in frequency space.
 %, which is given by a Gaussian profile. 
-The decay curve of \ref{bloch + rot T2} is measured by varying the parameter $\tau$ in the 90°-180° sequence.
+The decay curve expressed in eq. \ref{bloch + rot T2} is measured by varying the parameter $\tau$ in the 90°-180° sequence.
 
 The Hahn echo finds its limitations when measuring the decay curvature for large $t$. In such cases the time evolution, due to the field inhomogenieties, is faster than the time scale of the measurement $\tau$, i.g the average Larmor frequencies in time intervals $0 < t < \tau$ and $\tau < t < 2 \tau$ can be different. Hence, only partial coherence can be achieved, leading to reduced signals and a reduced value for $T_2$.
 
@@ -151,27 +152,27 @@ The sequence is repeated over a large interval of time yielding a value closer t
 \footnotetext{ (2013, March 13). Physikalisches Praktikum im Bachelor-Studiengangander RWTH Aachen Versuch:Nuclear Magnetic Resonance(NMR) p. 16 }
 
 \subsubsection{Spin-lattice relaxation $T_1$}
-An anti-parallel state will also decay by giving energy to its surroundings. This is the spin-lattice relaxation and it's described by  the solution of \ref{bloch + rot T1}:
+An anti-parallel state will also decay by giving energy to its surroundings. This is the spin-lattice relaxation and it's described by  the solution of eq. \ref{bloch + rot T1}:
 \begin{equation}
 \label{eq: sol. bloch T1}
 \vec{M}_\parallel(t) = \vec{M}_0\left( 1 - 2e^{t/T_1}\right).
 \end{equation}
 
-After a 180° pulse a magnetization $\vec{M}_\parallel$ is generated, which is anti-parallel relative to the orientation of the field $B_0$. Since the an anti-parallel state doesn't produce a signal, a 90° pulse at $t = \tau$ is used to transform the magnetization into a transverse one. The signal at $t = \tau$ is proportional to the initial longitudinal state. The decay curve of $\vec{M}_\parallel$ can be measured by varying the value of $\tau$ in the pulse sequence 180°-90°. 
+After a 180° pulse a magnetization $\vec{M}_\parallel$ is generated, which is anti-parallel relative to the orientation of the field $B_0$. Since an anti-parallel state doesn't produce a signal, a 90° pulse at $t = \tau$ is used to transform the magnetization into a transverse one. The signal at $t = \tau$ is proportional to the initial longitudinal state. The decay curve of $\vec{M}_\parallel$ can be measured by varying the value of $\tau$ in the pulse sequence 180°-90°. 
 \subsection{Chemical shift}
 Protons that are bounded to molecules do not interact with the external magnetic field alone, but rather with a field $\vec{B}_{tot}$ modified by the magnetic shielding of the electron orbitals. Hence, according to equation \ref{eq: larmor freq}, the Larmor frequency of the protons should be modified:
 \begin{equation}
 \omega_i = \omega_L\left( 1 - \sigma_i\right).
 \end{equation}
-Here $\omega_L$ is the free Larmor frequency, $\omega_i$ is the frequency modified by the chemical shift and $\sigma_i$ stands for the shielding factor, which is characterized by the molecule and each nucleus within the molecule.
-In order to use this characteristic shielding factor to identify  the molecule Tetra-Methyl-Silan (TMS) was used as reference substance. Under this condition the chemical shift $\delta_i$ is given by:
+Here $\omega_L$ is the free Larmor frequency, $\omega_i$ is the frequency modified by the chemical shift and $\sigma_i$ stands for the shielding factor, which is characteristic for the molecule and each nucleus within the molecule.
+In order to use this characteristic shielding factor to identify  the molecules the substance Tetra-Methyl-Silan (TMS) was used as reference substance. Under this condition the chemical shift $\delta_i$ is given by:
 \begin{equation}
 \delta_i = \sigma_i - \sigma_{TMS} = \frac{\omega_{TMS} - \omega_i}{\omega_L}.
 \end{equation}
 \begin{figure}[!htbp]
  \begin{center}
   \includegraphics[width = .6\textwidth]{Latex images/chemical-shift.png}
-  \caption[]{Chemical shift $\delta_i$ of differnt compounds relative to TMS \footnotemark}
+  \caption[]{Chemical shift $\delta_i$ of different compounds relative to TMS \footnotemark}
     \label{fig: chemical shift}
  \end{center}
 \end{figure}
@@ -188,9 +189,10 @@ Let's consider the  1 dimensional imaging in z-direction, where only the $\vec{B
 
 Due to the field gradient the Larmor frequency becomes a linear function of position z:
 \begin{equation}
+\label{eq: z dep. larmor}
 \omega_L(z) = \gamma(B_0 + G^z\cdot z).
 \end{equation}
-After taking the rotating frame into consideration, where $\vec{M}_\perp$ is given by \ref{bloch + rot T2} and will be denoted as $\vec{M}_\perp^{rot}$, and the position dependent Larmor frequency we can write the transverse magnetization as:
+After taking the rotating frame into consideration, where $\vec{M}_\perp$ is given by eq. \ref{bloch + rot T2} and will be denoted as $\vec{M}_\perp^{rot}$, and the position dependent Larmor frequency in eq. \ref{eq: z dep. larmor} we can write the transverse magnetization as:
 \begin{equation}
 \vec{M}_\perp(z, t) = M_\perp^{rot}(z,t)e^{i\gamma(B_0 + G^{z}z)t}.
 \end{equation}
@@ -217,7 +219,7 @@ To generated the data points the NMR signal is measured at a fixed time $t_0$ an
 $$S_1 = S(\Delta k_z,t_0), \quad S_2 = S(2\Delta k_z, t_0), ..., S_N = S(N\Delta k_z, t_0).$$
 
 \subsubsection{Two dimensional imaging}
-For two dimensional imaging we use a two dimensional Fourier method. In this case the measurement method consist in first choosing a slice $z_1 < z < z_2$ which will be selectively excited by a high frequency pulse of duration $t_p$. At this point the different positions in the slice have different Larmor frequencies due to the slice selection gradient. To generate a phase coherent system, a second high frequency pulse with opposite polarization of the duration $t_p/2$ is used. Consequently we implement a combination of phase coding in x-direction and frequency coding in y-direction to generate a matrix of $NxM$ data points $S(k_n, t_m)$. Finally the image can be derived by a two dimensional Fourier transformation. 
+For two dimensional imaging we use a two dimensional Fourier method. In this case the measurement method consist in first choosing a slice $z_1 < z < z_2$ which will be selectively excited by a high frequency pulse of duration $t_p$. At this point the different positions in the slice have different Larmor frequencies due to the slice selection gradient. To generate a phase coherent system, a second high frequency pulse with opposite polarization of the duration $t_p/2$ is used. Consequently we implement a combination of phase coding in x-direction and frequency coding in y-direction to generate a matrix of $N\times M$ data points $S(k_n, t_m)$. Finally the image can be derived by a two dimensional Fourier transformation. 
 
 
 
