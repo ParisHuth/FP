@@ -33,7 +33,7 @@ In our case, of a weak field ($\mu B \gg kT$), the ground state of the system ca
 \label{ground state approx}
 \vec{M}_0 = \frac{N}{V} \frac{\hbar^2 \gamma^2 I(I+1)}{3kT}\vec{B}_0 \propto \frac{\vec{B}_0}{T},
 \end{equation}
-i.e the law of Curie.
+where $\hbar$ is the reduced planck constant, $V$ the probe volume, $I$ the Inertia. This is the law of Curie.
 
 In general, the magnetization can have an arbitrary orientation related to the external magnetic field, however such a system will decay asymptotically into the ground state, since $\vec{M}_0$ minimizes the energy. 
 
@@ -41,7 +41,7 @@ The interaction between the macroscopic magnetization and the external magnetic 
 \begin{equation}
 \vec{\tau} = \gamma\vec{M} \wedge\vec{B}_0.
 \end{equation}
-If the magnetization is separated into parallel $\vec{M}_{\parallel}$ and perpendicular $\vec{M}_{\perp}$ components, relative to the external field, we  see that only the later gives a non-trivial expression. Without any relaxation processes, the rate of change of $vec{M}_\perp$ is given by:
+If the magnetization is separated into parallel $\vec{M}_{\parallel}$ and perpendicular $\vec{M}_{\perp}$ components, relative to the external field, we  see that only the later gives a non-trivial expression. Without any relaxation processes, the rate of change of $\vec{M}_\perp$ is given by:
 \begin{equation}
 \frac{d \vec{M}_{\perp}}{dt} = -\vec{M}_{\perp}\wedge\vec{B}_0.
 \end{equation}
@@ -55,7 +55,7 @@ Generating a transverse or anti-parallel magnetization to $\vec{B}_0$ can be ach
 
 For a static magnetic field $\vec{B}_0$ pointing in the z-direction, and a coil oriented along the x-axis, applying a sinusoidal voltage with a frequency $\omega_H$, would generate a solenoid magnetic field $\vec{B}_1$ polarized along the x-direction. Under this conditions the torque  acquires a second term:
 \begin{equation}
-\vec{\tau} = \vec{M}_0\wedge(\vec{B}_0 + \vec{B}_1(t)
+\vec{\tau} = \vec{M}_0\wedge\left(\vec{B}_0 + \vec{B}_1(t)\right)
 \end{equation}
 which induces a second precession around the x-axis.
 For a pulse duration, which is short relative to the relaxation time, the magnitude of the magnetization is approximately constant. In this case the vector $\vec{M}$ moves in a sphere with radius $|\vec{M}_0|$. The vector coordinates in the sphere are then given by a azimuthal angle $\varphi$, which is defined by the precession induced by $\vec{B}_0$, and by a polar angle $\theta$ which arises from the interaction with the solenoid field. Both angles are functions of time:
@@ -73,7 +73,7 @@ A pulse which induces a  polar angle $\theta = 90$° is called a 90° pulse. For
 In the set up used for this experiment, the high frequency pulses of fixed frequency $\omega_{HF} = 19.8$ MHz were generated in an electronic unit of the minispec p20. Said pulses induce a precession around the z-axis, that change the magnetic flux through the coil in time, resulting in a induction signal modulating by the Larmor frequency $\omega_L$, which could be set up by hand. This signal is fed back to the p20 electronic unit, where both the high frequency and the induction signals are mixed into an output given by the multiplication of both inputs, i.g the sum of two cosine functions. One of the terms depends on the working frequency, which is given by the difference between $\omega_L$ and $\omega_{HF}$, and is on the order of few hundred Hertz, while the second one in the range of 40MHz. The use of a low frequency bandpass filter allows to get rid of the later signal.   
 \subsection{Relaxation Time}
 \subsubsection{Bloch equations}
-For the description of the precession of $\vec{M}_{\perp}$ it is possible to define a rotating reference system $(x', y', z)$. This reference frame is defined by 2 condition: 1) the $(x', y')$-plane rotate in the static $(x, y)$-plane and 2) $\vec{M}_{\perp}$ points in the $x'$-direction.
+For the description of the precession of $\vec{M}_{\perp}$ it is possible to define a rotating reference system $(x', y', z)$. This reference frame is defined by 2 conditions: 1) the $(x', y')$-plane rotate in the static $(x, y)$-plane and 2) $\vec{M}_{\perp}$ points in the $x'$-direction, since we choose the rotating frame to rotate in the lab frame at the larmor frequency.
 
 In this reference system the transverse and longitudinal magnetization are constant if no relaxations processes are present, otherwise both components are time dependent. Their time evolution is described by the Bloch equations:
 \begin{equation}
@@ -95,7 +95,7 @@ In the presence of a relaxation processes, the time evolution of the magnetizati
  giving the following Bloch equations in laboratory system:
  \begin{equation}
  \label{bloch + rot T2}
-   \frac{d \vec{M}_{\perp}(t)}{dt} = \gamma(\vec{B}\wedge\vec{M})_\perp - \frac{\vec{M}_\perp (T)}{T_2},
+   \frac{d \vec{M}_{\perp}(t)}{dt} = \gamma(\vec{B}\wedge\vec{M})_\perp - \frac{\vec{M}_\perp (t)}{T_2},
   \end{equation} 
   \begin{equation}
   \label{bloch + rot T1}
@@ -112,7 +112,7 @@ the protons at different positions to precess with different frequencies. Hence 
 \end{equation}
 In the following experiment two different methods were used to measure $T_2$: 1) spin-echo/ Hahn echo method and 2) Carr-Purcell sequence. In both cases a 180° pulse is used to reverse the dephasing. 
 \paragraph{Spin-Echo:}
-The spin echo method consist on a 90° pulse that creates a transverse magnetization followed by a 180° pulse at $t = \tau$ that reverts the dephasing. The 180° rotation along the x-axis caused by said pulse exchanges the position of protons that presses faster with the
+The spin echo method consist on a 90° pulse that creates a transverse magnetization followed by a 180° pulse at $t = \tau$ that reverts the dephasing. The 180° rotation along the x-axis caused by said pulse exchanges the position of protons that precess faster with the
 % TODO: not sure about the wording
  slow ones, but keeps the rotation direction invariant, all particles keep on rotating clockwise. Thus at $t = 2\tau$ the fast protons catch up with the slow ones generating a spin-echo. The process is illustrated in Fig. \ref{fig: spin-echo}. 
  
