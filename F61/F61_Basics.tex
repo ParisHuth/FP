@@ -33,7 +33,7 @@ In our case, of a weak field ($\mu B \gg kT$), the ground state of the system ca
 \label{ground state approx}
 \vec{M}_0 = \frac{N}{V} \frac{\hbar^2 \gamma^2 I(I+1)}{3kT}\vec{B}_0 \propto \frac{\vec{B}_0}{T},
 \end{equation}
-i.e the law of Curie.
+i.e the law of Curie. Here $\hbar$ represents the normalized Plank's constant, $k$ the Boltzmann constant, $N$ stands for the number of particles of the sample, $V$ its volume and $T$ its temperature. $I$ stands for the nuclear quantum number. 
 
 In general, the magnetization can have an arbitrary orientation related to the external magnetic field, however such a system will decay asymptotically into the ground state, since $\vec{M}_0$ minimizes the energy. 
 
@@ -41,7 +41,7 @@ The interaction between the macroscopic magnetization and the external magnetic 
 \begin{equation}
 \vec{\tau} = \gamma\vec{M} \wedge\vec{B}_0.
 \end{equation}
-If the magnetization is separated into parallel $\vec{M}_{\parallel}$ and perpendicular $\vec{M}_{\perp}$ components, relative to the external field, we  see that only the later gives a non-trivial expression. Without any relaxation processes, the rate of change of $vec{M}_\perp$ is given by:
+If the magnetization is separated into parallel $\vec{M}_{\parallel}$ and perpendicular $\vec{M}_{\perp}$ components, relative to the external field, we  see that only the later gives a non-trivial expression. Without any relaxation processes, the rate of change of $\vec{M}_\perp$ is given by:
 \begin{equation}
 \frac{d \vec{M}_{\perp}}{dt} = -\vec{M}_{\perp}\wedge\vec{B}_0.
 \end{equation}
@@ -55,10 +55,12 @@ Generating a transverse or anti-parallel magnetization to $\vec{B}_0$ can be ach
 
 For a static magnetic field $\vec{B}_0$ pointing in the z-direction, and a coil oriented along the x-axis, applying a sinusoidal voltage with a frequency $\omega_H$, would generate a solenoid magnetic field $\vec{B}_1$ polarized along the x-direction. Under this conditions the torque  acquires a second term:
 \begin{equation}
-\vec{\tau} = \vec{M}_0\wedge(\vec{B}_0 + \vec{B}_1(t)
+\vec{\tau} = \vec{M}_0\wedge\left(\vec{B}_0 + \vec{B}_1(t)\right)
 \end{equation}
 which induces a second precession around the x-axis.
-For a pulse duration, which is short relative to the relaxation time, the magnitude of the magnetization is approximately constant. In this case the vector $\vec{M}$ moves in a sphere with radius $|\vec{M}_0|$. The vector coordinates in the sphere are then given by a azimuthal angle $\varphi$, which is defined by the precession induced by $\vec{B}_0$, and by a polar angle $\theta$ which arises from the interaction with the solenoid field. Both angles are functions of time:
+For a pulse duration, which is short relative to the relaxation time, the magnitude of the magnetization is approximately constant. 
+%TODO: check if this phasing is more understandable%
+However, as explained above, the orientation of the vector changes throughout time, thus the point of the vector moves in a sphere with radius $|\vec{M}_0|$. In this case the vector coordinates can be fully described by a azimuthal angle $\varphi$, which is defined by the precession induced by $\vec{B}_0$, and by a polar angle $\theta$ which arises from the interaction with the solenoid field. Both angles are functions of time:
 \begin{equation}
 \varphi = \omega_L t
 \end{equation}
@@ -73,7 +75,7 @@ A pulse which induces a  polar angle $\theta = 90$° is called a 90° pulse. For
 In the set up used for this experiment, the high frequency pulses of fixed frequency $\omega_{HF} = 19.8$ MHz were generated in an electronic unit of the minispec p20. Said pulses induce a precession around the z-axis, that change the magnetic flux through the coil in time, resulting in a induction signal modulating by the Larmor frequency $\omega_L$, which could be set up by hand. This signal is fed back to the p20 electronic unit, where both the high frequency and the induction signals are mixed into an output given by the multiplication of both inputs, i.g the sum of two cosine functions. One of the terms depends on the working frequency, which is given by the difference between $\omega_L$ and $\omega_{HF}$, and is on the order of few hundred Hertz, while the second one in the range of 40MHz. The use of a low frequency bandpass filter allows to get rid of the later signal.   
 \subsection{Relaxation Time}
 \subsubsection{Bloch equations}
-For the description of the precession of $\vec{M}_{\perp}$ it is possible to define a rotating reference system $(x', y', z)$. This reference frame is defined by 2 condition: 1) the $(x', y')$-plane rotate in the static $(x, y)$-plane and 2) $\vec{M}_{\perp}$ points in the $x'$-direction.
+For the description of the precession of $\vec{M}_{\perp}$ it is possible to define a rotating reference system $(x', y', z)$. This reference frame is defined by 2 conditions: 1) the $(x', y')$-plane rotate in the static $(x, y)$-plane and 2) $\vec{M}_{\perp}$ points in the $x'$-direction. The last condition is equivalent as choosing a rotating frame which rotates in the lab frame at the Larmor frequency. 
 
 In this reference system the transverse and longitudinal magnetization are constant if no relaxations processes are present, otherwise both components are time dependent. Their time evolution is described by the Bloch equations:
 \begin{equation}
@@ -95,7 +97,7 @@ In the presence of a relaxation processes, the time evolution of the magnetizati
  giving the following Bloch equations in laboratory system:
  \begin{equation}
  \label{bloch + rot T2}
-   \frac{d \vec{M}_{\perp}(t)}{dt} = \gamma(\vec{B}\wedge\vec{M})_\perp - \frac{\vec{M}_\perp (T)}{T_2},
+   \frac{d \vec{M}_{\perp}(t)}{dt} = \gamma(\vec{B}\wedge\vec{M})_\perp - \frac{\vec{M}_\perp (t)}{T_2},
   \end{equation} 
   \begin{equation}
   \label{bloch + rot T1}
@@ -103,16 +105,20 @@ In the presence of a relaxation processes, the time evolution of the magnetizati
   \end{equation}
  \subsubsection{Spin-spin relaxation $T_2$}
 %The magnetic field that interacts with the magnetization is not constant, firstly due to possible variations of the applied static field, but more important due to 
-Due to the magnetic interactions between the sample's protons with themselves, along with other phenomena, slowly varying field inhomogeneities are generated that cause
-% Furthermore, thermally induced rotations as well as translations of nuclei, caused by molecular diffusion, throughout spatially varying magnetic environments will causes the field that any nucleus experiences to be time-dependent. 
-the protons at different positions to precess with different frequencies. Hence a dephasing of the microscopic magnetizations takes place, i.e $\vec{M}_\perp$ decays to zero. This process is called spin-spin relaxation and it's characterized by the $T_2$ time. Said decay is described by the solution of eq. \ref{bloch + rot T2}:
+Due to the magnetic interactions between the sample's protons with themselves the system loose energy throughout time which results in a decay of $\vec{M}_\perp$ characterized by the relaxation time $T_2$. Said decay is described by the solution of eq. \ref{bloch + rot T2}:
 \begin{equation}
 \label{eq: sol. bloch T2}
 \vec{M}_{\perp}(t)= \vec{M}_\perp^{0}e^{-\frac{t}{T_2}}.
 \end{equation}
-In the following experiment two different methods were used to measure $T_2$: 1) spin-echo/ Hahn echo method and 2) Carr-Purcell sequence. In both cases a 180° pulse is used to reverse the dephasing. 
+This process is called spin-spin relaxation. 
+
+On top of this mechanism the slowly varying field inhomogeneities also contribute to the decay of the signal. This irregularities cause
+% Furthermore, thermally induced rotations as well as translations of nuclei, caused by molecular diffusion, throughout spatially varying magnetic environments will causes the field that any nucleus experiences to be time-dependent. 
+the protons at different positions to precess with different frequencies. Hence dephasing of the microscopic magnetizations takes place, which speeds the decay of the signal and thus results in a effective relaxation time $T_2*$ smaller or equal than $T_2$. This unables a simple measurement of $T_2$. In order to measure the free induction decay's chareristic time a 180° pulse is implemented, which corrects the dephasing of the magnetization. 
+
+In the following experiment two different methods were used to measure $T_2$: 1) spin-echo/ Hahn echo method and 2) Carr-Purcell sequence.
 \paragraph{Spin-Echo:}
-The spin echo method consist on a 90° pulse that creates a transverse magnetization followed by a 180° pulse at $t = \tau$ that reverts the dephasing. The 180° rotation along the x-axis caused by said pulse exchanges the position of protons that presses faster with the
+The spin echo method consist on a 90° pulse that creates a transverse magnetization followed by a 180° pulse at $t = \tau$ that reverts the dephasing. The 180° rotation along the x-axis caused by said pulse exchanges the position of protons that precess faster with the
 % TODO: not sure about the wording
  slow ones, but keeps the rotation direction invariant, all particles keep on rotating clockwise. Thus at $t = 2\tau$ the fast protons catch up with the slow ones generating a spin-echo. The process is illustrated in Fig. \ref{fig: spin-echo}. 
  
@@ -165,10 +171,12 @@ Protons that are bounded to molecules do not interact with the external magnetic
 \omega_i = \omega_L\left( 1 - \sigma_i\right).
 \end{equation}
 Here $\omega_L$ is the free Larmor frequency, $\omega_i$ is the frequency modified by the chemical shift and $\sigma_i$ stands for the shielding factor, which is characteristic for the molecule and each nucleus within the molecule.
-In order to use this characteristic shielding factor to identify  the molecules the substance Tetra-Methyl-Silan (TMS) was used as reference substance. Under this condition the chemical shift $\delta_i$ is given by:
+
+In order to use this characteristic shielding factor to identify molecules a reference substance is added. This is done in order to achieve a set-up independent measurement which ensures the reproduction of such experiments. In order to do so the difference between the chemical shift of the reference substance and the chemical shifts of the unknown sample are measured rather than the chemical shift of the unknown molecule alone. For this experiment Tetra-Methyl-Silan (TMS) is used as reference substance. Under this condition the relative chemical shift $\delta_i$ is given by:
 \begin{equation}
 \delta_i = \sigma_i - \sigma_{TMS} = \frac{\omega_{TMS} - \omega_i}{\omega_L}.
 \end{equation}
+ Fig. \ref{fig: chemical shift} contains a chart with the measured relative chemical shift of different organic compound, the measurements are in units ppm (part per million).
 \begin{figure}[!htbp]
  \begin{center}
   \includegraphics[width = .6\textwidth]{Latex images/chemical-shift.png}
@@ -176,11 +184,10 @@ In order to use this characteristic shielding factor to identify  the molecules 
     \label{fig: chemical shift}
  \end{center}
 \end{figure}
-\footnotetext{R. Schicker (2021, March 4). Nuclear Magnetic Resonance F61/F62 p. 19} 
-
-s\subsection{Imaging with NMR}
+\footnotetext{R. Schicker (2021, March 4). Nuclear Magnetic Resonance F61/F62 p. 19}
+\subsection{Imaging with NMR}
 The imaging measurements in the experiment were made with the Bruker NMR analyzer mq7.5. 
-In order to carry out measurements, which contain information on the position of the produced NMR signal, position dependent fields are implemented. These fields are superimposed to the static field $\vec{B}_0$ which defines the z-axis. In the used set up all gradients are parallel to the static field and are linear functions of the corresponding coordinates:
+In order to carry out measurements, which contain information on the position of the produced NMR signal, position dependent fields are implemented. These fields are superimposed to the static field $\vec{B}_0$ which defines the z-axis. In the used set up all gradients are chosen such that they point in $z$-direction and are linear functions of the corresponding coordinates:
 $$\vec{B}^x = (0,0,G^x\cdot x)^T$$
 $$\vec{B}^y = (0,0,G^y\cdot y)^T$$
 $$\vec{B}^z = (0,0,G^z\cdot z)^T$$
@@ -194,13 +201,14 @@ Due to the field gradient the Larmor frequency becomes a linear function of posi
 \end{equation}
 After taking the rotating frame into consideration, where $\vec{M}_\perp$ is given by eq. \ref{bloch + rot T2} and will be denoted as $\vec{M}_\perp^{rot}$, and the position dependent Larmor frequency in eq. \ref{eq: z dep. larmor} we can write the transverse magnetization as:
 \begin{equation}
-\vec{M}_\perp(z, t) = M_\perp^{rot}(z,t)e^{i\gamma(B_0 + G^{z}z)t}.
+\vec{M}_\perp(z, t) = M_\perp^{rot}(z)e^{i\gamma(B_0 + G^{z}z)t}.
 \end{equation}
 Using this expression one finds that the NMR signal is, apart from a phase factor, the Fourier transformation of the transverse magnetization $M_\perp^{rot}$:
+%Queston: should we change the integration and do the integration along x and y resulting in a infinitesimal area A in the x-y plane?%
 \begin{equation}
-S(t)\propto e^{i\Omega t} \int_{V} M_\perp^{rot}(z,t) e^{i\omega_z t} d\vec{x}.
+S(t)\propto e^{i\Omega t} \int_{V} M_\perp^{rot}(z) e^{i\omega_z t} d\vec{x}.
 \end{equation}
-Hence $M_\perp^{rot(z)}$ can be deduced from the measured NMR signal $S(t)$ by a 1 dimensional Fourier transformation signal.
+Here we also assumed $\vec{M}_\perp$ to be constant since the acquisition time is short wrt. $T_2$. Hence $M_\perp^{rot}(z)$ can be deduced from the measured NMR signal $S(t)$ by a 1 dimensional Fourier transformation signal.
 
 For the measurements there are two methods to generate the data points:
 \paragraph{Frequency coding}

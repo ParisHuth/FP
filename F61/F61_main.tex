@@ -31,7 +31,9 @@ In the experiment we study properties and usages of nuclear magnetic resonance (
 %resumé of experiment.
 The goal of the experiment was to study and get familiar with the theory and implementations of nuclear magnetic resonance. For that we studied two methods to measure the spin-spin relaxation time and one to estimate the spin-lattice relaxation time.
 
-% --> problem with Gd500 and why resulst of T2 don't match theory
+% -> mention problems minimizing the signal for the 180° pulse
+	%-> maybe the problems with the measurements of T_1 originate from the 180° 
+	%	which could not be set to 0.
 We examined two probes, Gd500 and Gd600, for which we obtained $T_1$ times, using $180^\circ - 90^\circ$ sequences, of $T_{1,500}=159.0\pm 1.3 ms$ and $T_{1,600}=154.4\pm 1.2 ms$. These times decrease with an increase in concentration, as expected due to the increased potential to dissipate energy.
 Unfortunately this is not the case of the $T_2$ measurements, where both the spin-echo values, and Carr-Purcell values increase with a higher concentration. The spin-echo sequence yielded: $T_{2,500}=110\pm 6 ms$ and $T_{2,600}=115.7\pm 1.2 ms$, and the Carr-Purcell sequence: $T_{2,500}=111.3\pm 1.5 ms$ and $T_{2,600}=116.9\pm 0.9 ms$. Repeated testing did not change the relation of these values, leading us to the conclusion of a faulty setup, either in the NMR device itself, or more likely the probe Gd500 or Gd600. 
 The deviation between the two methods of measurement does not seem to be significant, although we expect the results from the Carr-Purcell method to show a smaller deviation from the true value of $T_2$ for a given probe.
@@ -41,7 +43,7 @@ The deviation between the two methods of measurement does not seem to be signifi
  Later we identified 5 probes by measuring the relative chemical shift, where we used TMS as reference substance.
  We inserted each of the 5 probes, with and without the reference substance, and took measurements while rotating them with compressed air. The process of rotating proved to be somewhat finicky, which is why some of the spectra include more noise than the others. Nevertheless, we were able to identify all the probes, starting with substance A, which had to be fluroacetone because of its 3 distinct peaks, which no other probe could produce. Probe D showed the active group $FH_2$, which was already present in fluroacetone and thus had to be fluoroacetonitril. The spectrum of the probes B and E showed identical chemical shifts, although the intensity of the maxima varied. The maxima of probe B have show an increased intensity compared to probe E due to the presents of two $CH_3$ groups compared to the one group contained in probe E. Thus probe B being p-xylol and E being toluol. Lastly, probe C corresponded to acetic acid due to its big chemical shift by the active group $COOH$.
 
-	% maybe recommend another method to rotate the probe?
+
 
   Next, we used NMR for imaging. In this last part we first got familiar with the operation by taking 1 dimensional scans. 
 We examined different vials filled with oil and tested the extend of the viable measurement range. Values obtained outside the $x\in\left[-15mm, 15mm\right]$ range deviated in terms of intensity due to the non-linearity of the field gradient. This was obtained measuring two vials of oil of varying length. We also examined a vile containing a Teflon probe. Since Teflon does not produce a NMR signal, one could identify the structure of said probe by the lack of signal, caused by the displacement of oil.

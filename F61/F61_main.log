@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.23)  29 MAY 2024 21:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.23)  11 JUN 2024 09:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -482,223 +482,227 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {C:/Users/notchok/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 70.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 72.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 70.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 72.
 
 Missing character: There is no ° in font cmr10!
 [2{C:/Program Files/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 104.
+(hyperref)                removing `math shift' on input line 106.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 104.
+(hyperref)                removing `subscript' on input line 106.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 104.
+(hyperref)                removing `math shift' on input line 106.
 
 [3]
-<Latex images/SpinEcho_GWM_stills.jpg, id=130, 803.0pt x 405.515pt>
+<Latex images/SpinEcho_GWM_stills.jpg, id=131, 803.0pt x 405.515pt>
 File: Latex images/SpinEcho_GWM_stills.jpg Graphic file (type jpg)
 <use Latex images/SpinEcho_GWM_stills.jpg>
 Package pdftex.def Info: Latex images/SpinEcho_GWM_stills.jpg  used on input li
-ne 121.
+ne 127.
 (pdftex.def)             Requested size: 260.17464pt x 131.38861pt.
  [4 <./Latex images/SpinEcho_GWM_stills.jpg>]
-<Latex images/carr-purcell-sequence2.jpg, id=146, 486.1362pt x 213.1965pt>
+<Latex images/carr-purcell-sequence2.jpg, id=147, 486.1362pt x 213.1965pt>
 File: Latex images/carr-purcell-sequence2.jpg Graphic file (type jpg)
 <use Latex images/carr-purcell-sequence2.jpg>
 Package pdftex.def Info: Latex images/carr-purcell-sequence2.jpg  used on input
- line 147.
+ line 153.
 (pdftex.def)             Requested size: 260.17464pt x 114.09966pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 154.
+(hyperref)                removing `math shift' on input line 160.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 154.
+(hyperref)                removing `subscript' on input line 160.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 154.
+(hyperref)                removing `math shift' on input line 160.
 
 [5 <./Latex images/carr-purcell-sequence2.jpg>]
-<Latex images/chemical-shift.png, id=159, 357.13425pt x 283.65974pt>
+<Latex images/chemical-shift.png, id=160, 467.94826pt x 350.5095pt>
 File: Latex images/chemical-shift.png Graphic file (type png)
 <use Latex images/chemical-shift.png>
-Package pdftex.def Info: Latex images/chemical-shift.png  used on input line 17
-4.
-(pdftex.def)             Requested size: 260.17464pt x 206.65004pt.
- [6 <./Latex images/chemical-shift.png>] [7]) (F61_Measurements.tex
-<Latex images/molecules.png, id=187, 388.45125pt x 213.79875pt>
+Package pdftex.def Info: Latex images/chemical-shift.png  used on input line 18
+2.
+(pdftex.def)             Requested size: 260.17464pt x 194.88272pt.
+ [6 <./Latex images/chemical-shift.png>] [7]) (F61_Measurements.tex [8]
+<Latex images/molecules.png, id=193, 388.45125pt x 213.79875pt>
 File: Latex images/molecules.png Graphic file (type png)
 <use Latex images/molecules.png>
-Package pdftex.def Info: Latex images/molecules.png  used on input line 14.
+Package pdftex.def Info: Latex images/molecules.png  used on input line 15.
 (pdftex.def)             Requested size: 260.17464pt x 143.19873pt.
- [8]) (F61_Results.tex
-<./Protocol images/GD500_T2_sp_fit (1).jpg, id=201, 402.75468pt x 222.07968pt>
+ [9 <./Latex images/molecules.png>])
+(F61_Results.tex
+<./Protocol images/GD500_T2_sp_fit (1).jpg, id=209, 402.75468pt x 222.07968pt>
 File: ./Protocol images/GD500_T2_sp_fit (1).jpg Graphic file (type jpg)
 <use ./Protocol images/GD500_T2_sp_fit (1).jpg>
 Package pdftex.def Info: ./Protocol images/GD500_T2_sp_fit (1).jpg  used on inp
 ut line 11.
 (pdftex.def)             Requested size: 195.12767pt x 107.59329pt.
-<./Protocol images/GD60_Sp (1).png, id=202, 402.75468pt x 227.34938pt>
+<./Protocol images/GD60_Sp (1).png, id=210, 402.75468pt x 227.34938pt>
 File: ./Protocol images/GD60_Sp (1).png Graphic file (type png)
 <use ./Protocol images/GD60_Sp (1).png>
 Package pdftex.def Info: ./Protocol images/GD60_Sp (1).png  used on input line 
 18.
 (pdftex.def)             Requested size: 195.12767pt x 110.14636pt.
-<./Protocol images/GD500_T2_cp_fit.jpg, id=203, 378.66469pt x 196.48407pt>
+<./Protocol images/GD500_T2_cp_fit.jpg, id=211, 378.66469pt x 196.48407pt>
 File: ./Protocol images/GD500_T2_cp_fit.jpg Graphic file (type jpg)
 <use ./Protocol images/GD500_T2_cp_fit.jpg>
 Package pdftex.def Info: ./Protocol images/GD500_T2_cp_fit.jpg  used on input l
 ine 30.
 (pdftex.def)             Requested size: 195.12767pt x 101.24889pt.
-<./Protocol images/GD600_CP_fit (1).jpg, id=204, 378.66469pt x 201.00093pt>
+<./Protocol images/GD600_CP_fit (1).jpg, id=212, 378.66469pt x 201.00093pt>
 File: ./Protocol images/GD600_CP_fit (1).jpg Graphic file (type jpg)
 <use ./Protocol images/GD600_CP_fit (1).jpg>
 Package pdftex.def Info: ./Protocol images/GD600_CP_fit (1).jpg  used on input 
 line 37.
 (pdftex.def)             Requested size: 195.12767pt x 103.57643pt.
-<./Protocol images/GD500_T1 (1).png, id=205, 398.99063pt x 228.855pt>
+<./Protocol images/GD500_T1 (1).png, id=213, 398.99063pt x 228.855pt>
 File: ./Protocol images/GD500_T1 (1).png Graphic file (type png)
 <use ./Protocol images/GD500_T1 (1).png>
 Package pdftex.def Info: ./Protocol images/GD500_T1 (1).png  used on input line
  49.
 (pdftex.def)             Requested size: 195.12767pt x 111.92342pt.
-<./Protocol images/GD600_T1 (1).jpg, id=206, 398.23781pt x 227.34938pt>
+<./Protocol images/GD600_T1 (1).jpg, id=214, 398.23781pt x 227.34938pt>
 File: ./Protocol images/GD600_T1 (1).jpg Graphic file (type jpg)
 <use ./Protocol images/GD600_T1 (1).jpg>
 Package pdftex.def Info: ./Protocol images/GD600_T1 (1).jpg  used on input line
  56.
 (pdftex.def)             Requested size: 195.12767pt x 111.39522pt.
- [9 <./Latex images/molecules.png>] [10 <./Protocol images/GD500_T2_sp_fit (1).
-jpg> <./Protocol images/GD60_Sp (1).png> <./Protocol images/GD500_T2_cp_fit.jpg
-> <./Protocol images/GD600_CP_fit (1).jpg> <./Protocol images/GD500_T1 (1).png>
- <./Protocol images/GD600_T1 (1).jpg>]
-<./Latex images/A.png, id=230, 450.9347pt x 240.9pt>
+ [10 <./Protocol images/GD500_T2_sp_fit (1).jpg> <./Protocol images/GD60_Sp (1)
+.png> <./Protocol images/GD500_T2_cp_fit.jpg> <./Protocol images/GD600_CP_fit (
+1).jpg>] [11 <./Protocol images/GD500_T1 (1).png> <./Protocol images/GD600_T1 (
+1).jpg>]
+<./Latex images/A.png, id=236, 450.9347pt x 240.9pt>
 File: ./Latex images/A.png Graphic file (type png)
 <use ./Latex images/A.png>
-Package pdftex.def Info: ./Latex images/A.png  used on input line 92.
+Package pdftex.def Info: ./Latex images/A.png  used on input line 94.
 (pdftex.def)             Requested size: 203.80193pt x 108.87817pt.
-<./Latex images/Ap.png, id=231, 415.5525pt x 242.40562pt>
+<./Latex images/Ap.png, id=237, 415.5525pt x 242.40562pt>
 File: ./Latex images/Ap.png Graphic file (type png)
 <use ./Latex images/Ap.png>
-Package pdftex.def Info: ./Latex images/Ap.png  used on input line 99.
+Package pdftex.def Info: ./Latex images/Ap.png  used on input line 101.
 (pdftex.def)             Requested size: 203.80193pt x 118.88335pt.
-<./Latex images/B.png, id=232, 484.81125pt x 240.9pt>
+<./Latex images/B.png, id=238, 484.81125pt x 240.9pt>
 File: ./Latex images/B.png Graphic file (type png)
 <use ./Latex images/B.png>
-Package pdftex.def Info: ./Latex images/B.png  used on input line 111.
+Package pdftex.def Info: ./Latex images/B.png  used on input line 113.
 (pdftex.def)             Requested size: 203.80193pt x 101.2692pt.
-<./Latex images/Bp.png, id=233, 479.54156pt x 240.9pt>
+<./Latex images/Bp.png, id=239, 479.54156pt x 240.9pt>
 File: ./Latex images/Bp.png Graphic file (type png)
 <use ./Latex images/Bp.png>
-Package pdftex.def Info: ./Latex images/Bp.png  used on input line 118.
+Package pdftex.def Info: ./Latex images/Bp.png  used on input line 120.
 (pdftex.def)             Requested size: 203.80193pt x 102.3793pt.
-<./Latex images/C.jpg, id=234, 413.29407pt x 239.39438pt>
+<./Latex images/C.jpg, id=240, 413.29407pt x 239.39438pt>
 File: ./Latex images/C.jpg Graphic file (type jpg)
 <use ./Latex images/C.jpg>
-Package pdftex.def Info: ./Latex images/C.jpg  used on input line 131.
+Package pdftex.def Info: ./Latex images/C.jpg  used on input line 133.
 (pdftex.def)             Requested size: 203.80193pt x 118.04944pt.
-<./Latex images/Cp.jpg, id=235, 412.54124pt x 242.40562pt>
+<./Latex images/Cp.jpg, id=241, 412.54124pt x 242.40562pt>
 File: ./Latex images/Cp.jpg Graphic file (type jpg)
 <use ./Latex images/Cp.jpg>
-Package pdftex.def Info: ./Latex images/Cp.jpg  used on input line 138.
+Package pdftex.def Info: ./Latex images/Cp.jpg  used on input line 140.
 (pdftex.def)             Requested size: 203.80193pt x 119.75256pt.
-<./Latex images/D.jpg, id=236, 420.06938pt x 243.91125pt>
+<./Latex images/D.jpg, id=242, 420.06938pt x 243.91125pt>
 File: ./Latex images/D.jpg Graphic file (type jpg)
 <use ./Latex images/D.jpg>
-Package pdftex.def Info: ./Latex images/D.jpg  used on input line 150.
+Package pdftex.def Info: ./Latex images/D.jpg  used on input line 152.
 (pdftex.def)             Requested size: 203.80193pt x 118.33774pt.
-<./Latex images/Dp.png, id=237, 444.91219pt x 241.65282pt>
+<./Latex images/Dp.png, id=243, 444.91219pt x 241.65282pt>
 File: ./Latex images/Dp.png Graphic file (type png)
 <use ./Latex images/Dp.png>
-Package pdftex.def Info: ./Latex images/Dp.png  used on input line 157.
+Package pdftex.def Info: ./Latex images/Dp.png  used on input line 159.
 (pdftex.def)             Requested size: 203.80193pt x 110.69334pt.
-<./Latex images/E.png, id=238, 445.665pt x 240.14719pt>
+<./Latex images/E.png, id=244, 445.665pt x 240.14719pt>
 File: ./Latex images/E.png Graphic file (type png)
 <use ./Latex images/E.png>
-Package pdftex.def Info: ./Latex images/E.png  used on input line 170.
+Package pdftex.def Info: ./Latex images/E.png  used on input line 172.
 (pdftex.def)             Requested size: 203.80193pt x 109.82043pt.
-<./Latex images/Ep.png, id=239, 409.53pt x 240.14719pt>
+<./Latex images/Ep.png, id=245, 409.53pt x 240.14719pt>
 File: ./Latex images/Ep.png Graphic file (type png)
 <use ./Latex images/Ep.png>
-Package pdftex.def Info: ./Latex images/Ep.png  used on input line 177.
+Package pdftex.def Info: ./Latex images/Ep.png  used on input line 179.
 (pdftex.def)             Requested size: 203.80193pt x 119.51263pt.
- [11 <./Latex images/A.png> <./Latex images/Ap.png>] [12 <./Latex images/B.png>
- <./Latex images/Bp.png> <./Latex images/C.jpg> <./Latex images/Cp.jpg> <./Late
-x images/D.jpg> <./Latex images/Dp.png>] [13 <./Latex images/E.png> <./Latex im
-ages/Ep.png>]
-<./Protocol images/III/long&short_signal.png, id=273, 452.4403pt x 248.42813pt>
+ [12 <./Latex images/A.png> <./Latex images/Ap.png> <./Latex images/B.png> <./L
+atex images/Bp.png>] [13 <./Latex images/C.jpg> <./Latex images/Cp.jpg> <./Late
+x images/D.jpg> <./Latex images/Dp.png> <./Latex images/E.png> <./Latex images/
+Ep.png>]
+<./Protocol images/III/long&short_signal.png, id=275, 452.4403pt x 248.42813pt>
 
 File: ./Protocol images/III/long&short_signal.png Graphic file (type png)
 <use ./Protocol images/III/long&short_signal.png>
 Package pdftex.def Info: ./Protocol images/III/long&short_signal.png  used on i
-nput line 215.
+nput line 217.
 (pdftex.def)             Requested size: 260.17464pt x 142.85643pt.
-<./Protocol images/III/three_profiles.png, id=275, 454.69875pt x 243.15843pt>
+<./Protocol images/III/three_profiles.png, id=277, 454.69875pt x 243.15843pt>
 File: ./Protocol images/III/three_profiles.png Graphic file (type png)
 <use ./Protocol images/III/three_profiles.png>
 Package pdftex.def Info: ./Protocol images/III/three_profiles.png  used on inpu
-t line 225.
+t line 227.
 (pdftex.def)             Requested size: 260.17464pt x 139.13602pt.
- [14 <./Protocol images/III/long&short_signal.png>]
-<./Latex images/time_evolution.jpg, id=285, 1011.78pt x 361.35pt>
+ [14]
+<./Latex images/time_evolution.jpg, id=286, 1011.78pt x 361.35pt>
 File: ./Latex images/time_evolution.jpg Graphic file (type jpg)
 <use ./Latex images/time_evolution.jpg>
 Package pdftex.def Info: ./Latex images/time_evolution.jpg  used on input line 
-238.
+240.
 (pdftex.def)             Requested size: 433.62pt x 154.86469pt.
- [15 <./Protocol images/III/three_profiles.png> <./Latex images/time_evolution.
-jpg>]
-<./Latex images/oil_vertical.png, id=300, 349.305pt x 271.0125pt>
+ [15 <./Protocol images/III/long&short_signal.png> <./Protocol images/III/three
+_profiles.png>]
+<./Latex images/oil_vertical.png, id=302, 349.305pt x 271.0125pt>
 File: ./Latex images/oil_vertical.png Graphic file (type png)
 <use ./Latex images/oil_vertical.png>
 Package pdftex.def Info: ./Latex images/oil_vertical.png  used on input line 25
-6.
+8.
 (pdftex.def)             Requested size: 195.12767pt x 151.39377pt.
-<./Latex images/oil_horizontal.png, id=301, 350.05782pt x 271.76532pt>
+<./Latex images/oil_horizontal.png, id=303, 350.05782pt x 271.76532pt>
 File: ./Latex images/oil_horizontal.png Graphic file (type png)
 <use ./Latex images/oil_horizontal.png>
 Package pdftex.def Info: ./Latex images/oil_horizontal.png  used on input line 
-263.
+265.
 (pdftex.def)             Requested size: 195.12767pt x 151.48672pt.
-<./Latex images/nut_airgap.png, id=302, 356.83313pt x 272.51813pt>
+<./Latex images/nut_airgap.png, id=304, 356.83313pt x 272.51813pt>
 File: ./Latex images/nut_airgap.png Graphic file (type png)
 <use ./Latex images/nut_airgap.png>
-Package pdftex.def Info: ./Latex images/nut_airgap.png  used on input line 270.
+Package pdftex.def Info: ./Latex images/nut_airgap.png  used on input line 272.
 
 (pdftex.def)             Requested size: 195.12767pt x 149.02051pt.
-<./Latex images/nut_horizontal.png, id=303, 350.81062pt x 272.51813pt>
+<./Latex images/nut_horizontal.png, id=305, 350.81062pt x 272.51813pt>
 File: ./Latex images/nut_horizontal.png Graphic file (type png)
 <use ./Latex images/nut_horizontal.png>
 Package pdftex.def Info: ./Latex images/nut_horizontal.png  used on input line 
-277.
+279.
 (pdftex.def)             Requested size: 195.12767pt x 151.582pt.
-<./Latex images/pecan.png, id=304, 353.06906pt x 272.51813pt>
+<./Latex images/pecan.png, id=306, 353.06906pt x 272.51813pt>
 File: ./Latex images/pecan.png Graphic file (type png)
 <use ./Latex images/pecan.png>
-Package pdftex.def Info: ./Latex images/pecan.png  used on input line 284.
+Package pdftex.def Info: ./Latex images/pecan.png  used on input line 286.
 (pdftex.def)             Requested size: 195.12767pt x 150.60896pt.
-<./Latex images/cellerie.png, id=305, 353.06906pt x 275.52937pt>
+<./Latex images/cellerie.png, id=307, 353.06906pt x 275.52937pt>
 File: ./Latex images/cellerie.png Graphic file (type png)
 <use ./Latex images/cellerie.png>
-Package pdftex.def Info: ./Latex images/cellerie.png  used on input line 291.
+Package pdftex.def Info: ./Latex images/cellerie.png  used on input line 293.
 (pdftex.def)             Requested size: 195.12767pt x 152.27315pt.
- [16]) [17 <./Latex images/oil_vertical.png> <./Latex images/oil_horizontal.png
-> <./Latex images/nut_airgap.png> <./Latex images/nut_horizontal.png> <./Latex 
-images/pecan.png> <./Latex images/cellerie.png>] [18] [19] (F61_main.aux)
+ [16 <./Latex images/time_evolution.jpg>]) [17 <./Latex images/oil_vertical.png
+> <./Latex images/oil_horizontal.png> <./Latex images/nut_airgap.png> <./Latex 
+images/nut_horizontal.png> <./Latex images/pecan.png> <./Latex images/cellerie.
+png>] [18] [19]
+(F61_main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
+
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -732,9 +736,9 @@ Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/notch
 ok/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/U
 sers/notchok/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/
 msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on F61_main.pdf (19 pages, 1259755 bytes).
+Output written on F61_main.pdf (19 pages, 1269554 bytes).
 PDF statistics:
- 424 PDF objects out of 1000 (max. 8388607)
+ 426 PDF objects out of 1000 (max. 8388607)
  96 named destinations out of 1000 (max. 500000)
  314 words of extra memory for PDF output out of 10000 (max. 10000000)
 

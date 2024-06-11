@@ -1,14 +1,17 @@
 \section{Measurements Procedure}
 \subsection{Relaxation time}
-In this part of the experiment we study the relaxation times $T_1$ and $T_2$ of samples Gd500 and Gd600. For that we first start by calibrating the magnet of the p20 unit by inserting the Gd600 sample and setting the 90° pulse for it to maximize the received signal. Analogously the 180° is set up for it to minimize the NMR signal. 
+In this part of the experiment we study the relaxation times $T_1$ and $T_2$ of two samples of Gadolinium mixed with different rations of water (Gd:water): Gd500 (1:5) and Gd600 (1:6). For that we first start by calibrating the magnet of the p20 unit by inserting the Gd600 sample and setting the 90° pulse for it to maximize the received signal. Analogously the 180° is set up for it to minimize the NMR signal, which ideally would be 0. 
+
+During the procedure of this experiment it was not possible for the 180° pulse to be set up to zero, however a minimum was found and the pulse was set for this later. This is a technical issue, which originated from the used experimental set-up itself. The machine used lacked of a fine tuner that would make the calibration more precise. 
 
 After calibration the measurements are taken as previously described: For $T_2$ we use the Hahn echo method and Carr-Purcell metod, whereas for $T_1$ we implement a 180°-90° sequence. 
 During the entirety of this measurement the working frequency was set to $\omega_w = (1 \pm 0.5)$ kHz.
 \subsection{Chemical shift}
 \label{sec: chemical shift}
 Next we use the NMR to identify 5 substances. For the identification of the probes we use TMS as a reference substance, hence we have two samples for each probes: one for the unknown substance alone and a second sample mixed with TMS.
+
 The samples are inserted in the magnet of the p20 unit, then the probe are rapidly rotate using compressed air. This procedure was implemented to minimize the field inhomogeneities, hence minimizing the width of the signal in frequency space. Consequently we perform a spin-echo measurement. The signal is Fourier transformed and a Gaussian profile is fitted into the different peaks of the spectrum to measure the frequency of the maxima. These peaks correspond to the active groups of the molecule.
-The spectrum of the sample without TMS is compared to the one with TMS to identify the position its corresponding maximum. Finally the relative distance between the TMS-maximum and the active group's maxima is measured. Using Fig. \ref{fig: chemical shift} we are able to identify the active groups. Once these are know we search for the matching molecules in Fig. \ref{fig: identification}.
+The spectrum of the sample without TMS is compared to the one with TMS to identify the position of the reference substance's maximum. Finally the relative distance between the TMS-maximum and the active group's maxima is measured. In Fig. \ref{fig: chemical shift} the black lines besides the chemical formula of the organic compounds give the possible range for the relative chemical shift of said substance. So, we use the measured $\delta$  and search for the groups in Fig. \ref{fig: chemical shift} that matches it. Once the active compounds are known we search for the matching molecules in Fig. \ref{fig: identification}.
 \begin{figure}[!htbp]
  \begin{center}
   \includegraphics[width = .6\textwidth]{Latex images/molecules.png}
