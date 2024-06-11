@@ -33,7 +33,9 @@ In our case, of a weak field ($\mu B \gg kT$), the ground state of the system ca
 \label{ground state approx}
 \vec{M}_0 = \frac{N}{V} \frac{\hbar^2 \gamma^2 I(I+1)}{3kT}\vec{B}_0 \propto \frac{\vec{B}_0}{T},
 \end{equation}
-i.e the law of Curie. Here $\hbar$ represents the normalized Plank's constant, $k$ the Boltzmann constant, $N$ stands for the number of particles of the sample, $V$ its volume and $T$ its temperature. $I$ stands for the nuclear quantum number. 
+
+i.e the law of Curie. Here $\hbar$ represents the normalized Plank's constant, $k$ the Boltzmann constant, $N$ stands for the number of particles of the sample, $V$ its volume and $T$ its temperature. $I$ stands for the nuclear spin quantum number. 
+
 
 In general, the magnetization can have an arbitrary orientation related to the external magnetic field, however such a system will decay asymptotically into the ground state, since $\vec{M}_0$ minimizes the energy. 
 
@@ -75,7 +77,8 @@ A pulse which induces a  polar angle $\theta = 90$° is called a 90° pulse. For
 In the set up used for this experiment, the high frequency pulses of fixed frequency $\omega_{HF} = 19.8$ MHz were generated in an electronic unit of the minispec p20. Said pulses induce a precession around the z-axis, that change the magnetic flux through the coil in time, resulting in a induction signal modulating by the Larmor frequency $\omega_L$, which could be set up by hand. This signal is fed back to the p20 electronic unit, where both the high frequency and the induction signals are mixed into an output given by the multiplication of both inputs, i.g the sum of two cosine functions. One of the terms depends on the working frequency, which is given by the difference between $\omega_L$ and $\omega_{HF}$, and is on the order of few hundred Hertz, while the second one in the range of 40MHz. The use of a low frequency bandpass filter allows to get rid of the later signal.   
 \subsection{Relaxation Time}
 \subsubsection{Bloch equations}
-For the description of the precession of $\vec{M}_{\perp}$ it is possible to define a rotating reference system $(x', y', z)$. This reference frame is defined by 2 conditions: 1) the $(x', y')$-plane rotate in the static $(x, y)$-plane and 2) $\vec{M}_{\perp}$ points in the $x'$-direction. The last condition is equivalent as choosing a rotating frame which rotates in the lab frame at the Larmor frequency. 
+For the description of the precession of $\vec{M}_{\perp}$ it is possible to define a rotating reference system $(x', y', z)$. This reference frame is defined by 2 conditions: 1) the $(x', y')$-plane rotate in the static $(x, y)$-plane and 2) $\vec{M}_{\perp}$ points in the $x'$-direction, since we choose the rotating frame to rotate in the lab frame at the larmor frequency.
+
 
 In this reference system the transverse and longitudinal magnetization are constant if no relaxations processes are present, otherwise both components are time dependent. Their time evolution is described by the Bloch equations:
 \begin{equation}
