@@ -1,0 +1,30 @@
+\documentclass[11 pt]{article}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage{float}
+\usepackage{multirow}    % to add multirow cells in tables
+\usepackage{indentfirst} %to automatically intent the first paragrap of each sections
+\usepackage{amsmath}		%math packages
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{graphicx}	%Required for inserting images
+\usepackage{fontenc}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue, urlcolor=blue]{hyperref}	%for hyperlinks
+\usepackage{subcaption}	%to add subcaptions within single floating enviroments
+\usepackage{placeins}	%to control position of floating enviroments
+\usepackage[numbers]{natbib}  %for correct formating of bibliography}\usepackage{import}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usepackage{tikz-cd}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.14}
+\bibliographystyle{abbrvnat}
+\usepackage{siunitx} %for correct formating of units
+\providecommand{\mathdefault}[1]{\mathrm{#1}}
+\DeclareMathOperator{\arctanh}{arctanh}
+
+\title{Soft pion enhancement from thermal spectral functions}
+\author{Q'inich Coc}
+\date{July 2024}
+\begin{document}
+
+\end{document}
