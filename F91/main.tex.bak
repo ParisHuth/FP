@@ -19,12 +19,50 @@
 \pgfplotsset{compat=1.14}
 \bibliographystyle{abbrvnat}
 \usepackage{siunitx} %for correct formating of units
-\providecommand{\mathdefault}[1]{\mathrm{#1}}
-\DeclareMathOperator{\arctanh}{arctanh}
 
-\title{Soft pion enhancement from thermal spectral functions}
-\author{Q'inich Coc}
-\date{July 2024}
+
+
+\textwidth=170mm
+\textheight=250mm
+\hoffset= -20mm       % may need change
+\voffset= -25mm       % may need change
+
+
 \begin{document}
+
+%% we do the title page ourselves
+\thispagestyle{empty}     % only for frontpage
+\null\vspace{40mm}
+\begin{center}
+{%%%%%%%%%%%%%%%%%%%%%%%%%% Titel
+\Large  
+Studying the $Z$ Boson with the ATLAS Detector at the LHC \footnote{\noindent Experiment FP94 perfomed the $4^{\textrm{th}}$ Nov. 2024. Supervisor:	Ruiz, Miguel}
+}\\[15mm]
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Authors
+Q. Coc and P. Huth
+
+\vspace{25mm}
+
+\parbox{0.9\textwidth}{
+Abstract:    
+\small 
+
+The abstract should preferentially be in English. Here we explain in a
+few lines (i) what was done, and (ii) what the results were.
+}
+\end{center}
+
+\vfill
+Als besondere Auswertung testiert: Datum, Unterschrift:
+\vspace{20mm}
+
+%% Rueckseite des Titelblatts leer. Bei einseitigem Druck entfernen
+\newpage  
+\null\thispagestyle{empty} 
+   
+%\newpage     % Inhaltsverzeichnis, koennte man bei langer Version machen
+%\tableofcontents 
+
+\newpage
 
 \end{document}
