@@ -79,9 +79,14 @@ For the identification of electrons, the reconstruction algorithm uses informati
 In the experiment FP91 we analyse properties of the $Z$ boson using measurements taken in 2012 by the ATLAS experiment, which were published for educational use \footnotemark \footnotetext{"Review Studies for the ATLAS Open Data 8 TeV datasets, tools and activities", CERN, Dec. 2024.\href{https://cds.cern.ch/record/2624572}{[Online]}} \footnotemark \footnotetext{"Review Studies for the ATLAS Open Data Set", CERN, Dec. 2024.\href{https://cds.cern.ch/record/2203649}{[Online].}
 }. The integrated luminosity is $\mathcal{L}_{int} = \SI{1.007\pm 0.0019}{\femto\barn^{-1}}$ and the a center of mass energy $\sqrt{s} = \SI{8}{\tera\electronvolt}$. Additionally, we use MC simulations which were provided by our supervisor. Both of the datasets, measurements and MC, are tightly preselected by different isolation requisites.
 
-We start the experiment by analysing different properties of the measured data. Among them, the position of the primary vertex along the z-Axis, the number of leoptons produced , the aximuthal angle, pseudorapidity and $p_T$ distributions.
+We start the experiment by analysing different properties of the measured data. $vxp\_z$ being the z-position of the primary vertex, depicts the z - position within ATLAS at which the primary vertex is located. With a mean positioning of $-9.163mm$ with respect to the center of the detector, collisions do show some variablility in where they occur, possibliy influenced by the nature of the utilized bundles and further calibrations to be done. The distribution also shows two distinct peaks as a result of further ongoing calibrations done during the data collection.
 
 By plotting the number of leptons of each event in the measured data set we can see that most of the preselected events contain one lepton as final state. Such events are dominated by $W$ process, e.g. $q\, \bar{q} \to W^+ \to e^-\, \bar{\nu}_e$, revealing that most of the events are not relevant for studying the $Z$ boson. These kind of events can be filtered out by imposing the number of leptons to be $n_l \geq 2$. 
+
+The $lep\_\eta$ Variable contains the pseudorapidity which is, exept for some areas, fairly constant. The gaps in the distribution is a results of the detector setup, like the extend which does not exceed $\eta \sim 2.5 $.
+The azimuthal angle of the leptons is described by the $lep\_\phi$ distribution and is constant throughout, due to the symmetry of the detector.
+
+Lastly $lep\_pt$ describes the transverse momentum of the measured leptons. Here, a rise around $25GeV$ can be observed, which is results of the preselection process of the dataset, where each vertex has to have at least one lepton of $\geq25GeV$. Nevertheless we do observe leptons with both greater and lesser transverse momentum. Leptons with higher momenta do naturally arise, but are less likely and thus also less numerous. The measured leptons with a lower transverse momenta are a result decays that produced more multiple leptons, of which at least one satisfied the preselection criteria.
 
 For a further analysis of the measured data we calculate the invariant mass of the two leading leptons and compare it to the invariant mass of the $Z\to e^-\,e^+$ simulations, see \ref{fig:inv_mas}. From theory, we would expect a resonance curve centred around the expected mass of the $Z$ boson, $\sim \SI{91,187}{\giga\electronvolt}$. Our predictions are met by the invariant mass distribution of the MC simulations. While the mass distribution of the preselected data shows a predominant resonances peak around $M_Z$, three extra resonance curves are visible at $M< \SI{50}{\giga\electronvolt}$. These peaks correspond to bottom and charm resonances which likely decay into leptons. These events are irrelevant for our purposes. 
 \begin{figure}[htbp]
@@ -198,6 +203,27 @@ The efficiency is then obtained via the fraction of probe candidates that satisf
 \section{Summary}
 In this experiment we examined a dataset provided by CERN from the ALICE Detector, that was recorded in 2012 and attempted to calculate the Mass of the $Z$-Boson using the ROOT software framework, also provided by CERN.
 
-We familiarized ourselves with the basics of ROOT's python frontend und functionalities like the TBrowser while exploring the plathera of available variables provided in the dataset. 
+We familiarized ourselves with the basics of ROOT's python frontend und functionalities like the TBrowser while exploring the plathera of available variables provided in the dataset.
+We specifically looked at the distributions of the numbers of leptons produced, z-Position of the primary vertex, tranverse momentum, pseudorapidity and azimuthal angle observed in the collisions.
+
+Limitting ourselves to two lepton events, we calulated the invariant mass using our own approach and using the provided TLorentzVectors, the results of which do match, but are easier to obtaine via the methods provided by ROOT.
+The distribution of the Invariant Mass was further compared to Monte Carlo simulations, revealing additional resonance curves below the expected peak of $\sim 91.187GeV$, corresponding to bottom and charm resonances which likely decayed into leptons. 
+
+To limit our data to the relevant Drell-Yan process we imposed isolation requirements upon the data like a Good run list, electron/myuon trigger, restrictions on charge and so on. The effect of which can be observed in the cut flow histogram \ref{fig:selected_events}, isolating the relevant data greatly for $e$ and $\mu$ events. 
+
+A convolution of a Breit-Wigner distribution and a Gauss distribution, was then fitted on the further selected data, yielding the final results of: $M_{z} = 92.1880 GeV$ and $\Gamma = 2.4955 GeV$, compared to the values provided by the Particle Data Group (PDG): $M_{Z,PDG} = 90.629 GeV$ and $\Gamma_{PDG} = 3.258$, we observe significant deviations of: $\sigma_{M_Z} = 27.11$ and $\sigma_{\Gamma}=36.09$.
+
+ Lastly we had a brief examination of the efficiency using the tag and probe method. Implementing a similar routine to the cut flow specifically for the $Z \rightarrow e e$ decay, where the tag electron was subject to strict selection criteria, and if complient, the complementary probe electron was measured. This yielded the Fig.\ref*{fig:detection_Efficiency}.
+ 
+ A discussion of the systematic errors, and deviations from expected results was undertaken in the critical discussion.
+ 
+ 
+
+ 
 \section{Critical discussion}
+Considering the sheer amount of effort that is put into the construction, maintanance and operation of the LHC, and the consideration of errors, addressing these is not an easy task. The preselected data might already have been subject to some corrections, that we can hardly estimate. For the purposes of our analysis, we saw that not all data was relevant, or could be used utilized due to being the result of another processes, or producing only a certain number of leptons. 
+Deviations due to the utilized software are unlikely, since it is the software  provided and utilized by CERN. More directly the implementation of the cut flow, or the fit via a convolution of distributions could lead to some deviations. In our case,  the fit model does not perfectly match the peak. One could modify the BW distribution and address the positioning and (a-)symmetry of the curve.
+Additionally the $e^-$ could be missing some energy due to bremsstrahlung, for which one could include further corrections.
+
+Lastly when examining $vxp\_z$ we saw two peaks in the distribution, which were caused by ongoing calibrations in early 2012, while the public data was recorded. Thus there might be some inconsistencies within this limited dataset when compared to the data accessible by the likes of PDG.
 \end{document}
