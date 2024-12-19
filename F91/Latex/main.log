@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.1)  18 DEC 2024 14:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.1)  19 DEC 2024 02:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -903,35 +903,7 @@ tex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count348
 \l__pdf_internal_box=\box79
-) (main.aux
-
-LaTeX Warning: Label `fig:sub1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:sub1' multiply defined.
-
-
-LaTeX Warning: Label `fig:sub2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:sub2' multiply defined.
-
-
-LaTeX Warning: Label `fig:sub1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:sub1' multiply defined.
-
-
-LaTeX Warning: Label `fig:sub2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:sub2' multiply defined.
-
-
-LaTeX Warning: Label `fig:fit' multiply defined.
-
-)
+) (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -961,15 +933,15 @@ LaTeX Font Info:    ... okay on input line 31.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(81.94394pt, 433.62pt, 81.94394pt)
-* v-part:(T,H,B)=(106.75473pt, 578.15999pt, 160.13213pt)
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=483.69684pt
 * \textheight=711.3189pt
-* \oddsidemargin=9.67395pt
-* \evensidemargin=9.67395pt
-* \topmargin=-2.51526pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-7.86334pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -1050,97 +1022,125 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/magnu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
 [2]
-<Measurements/invariant_mass_comp_MC_log1.png, id=42, 800.9925pt x 573.14125pt>
+
+Package siunitx Warning: Unit macro \barn has been deprecated in this release.
+(siunitx)                
+(siunitx)                The BIPM have removed this unit from the SI Brochure.
+(siunitx)                You should define it yourself using \DeclareSIUnit in
+(siunitx)                your source. The current definition is
+(siunitx)                
+(siunitx)                \DeclareSIUnit\barn{b}
+
+<Measurements/invariant_mass_comp_MC_log1.png, id=47, 800.9925pt x 573.14125pt>
 
 File: Measurements/invariant_mass_comp_MC_log1.png Graphic file (type png)
 <use Measurements/invariant_mass_comp_MC_log1.png>
 Package pdftex.def Info: Measurements/invariant_mass_comp_MC_log1.png  used on 
-input line 68.
+input line 91.
 (pdftex.def)             Requested size: 800.99054pt x 573.13985pt.
-<Measurements/ZeecutFlowHist.png, id=43, 800.9925pt x 573.14125pt>
+
+
+[1]
+<Measurements/ZeecutFlowHist.png, id=61, 800.9925pt x 573.14125pt>
 File: Measurements/ZeecutFlowHist.png Graphic file (type png)
 <use Measurements/ZeecutFlowHist.png>
-Package pdftex.def Info: Measurements/ZeecutFlowHist.png  used on input line 78
-.
+Package pdftex.def Info: Measurements/ZeecutFlowHist.png  used on input line 11
+1.
 (pdftex.def)             Requested size: 800.99054pt x 573.13985pt.
-<Measurements/ZeeinvMass_cut.png, id=44, 700.6175pt x 472.76625pt>
+<Measurements/ZeeinvMass_cut.png, id=62, 700.6175pt x 472.76625pt>
 File: Measurements/ZeeinvMass_cut.png Graphic file (type png)
 <use Measurements/ZeeinvMass_cut.png>
-Package pdftex.def Info: Measurements/ZeeinvMass_cut.png  used on input line 85
-.
+Package pdftex.def Info: Measurements/ZeeinvMass_cut.png  used on input line 11
+6.
 (pdftex.def)             Requested size: 700.61578pt x 472.76509pt.
-<Measurements/ZmumucutFlowHist.png, id=45, 800.9925pt x 573.14125pt>
+<Measurements/ZmumucutFlowHist.png, id=63, 800.9925pt x 573.14125pt>
 File: Measurements/ZmumucutFlowHist.png Graphic file (type png)
 <use Measurements/ZmumucutFlowHist.png>
 Package pdftex.def Info: Measurements/ZmumucutFlowHist.png  used on input line 
-92.
+121.
 (pdftex.def)             Requested size: 800.99054pt x 573.13985pt.
-<Measurements/ZmumuinvMass_cut.png, id=46, 700.6175pt x 472.76625pt>
+<Measurements/ZmumuinvMass_cut.png, id=64, 700.6175pt x 472.76625pt>
 File: Measurements/ZmumuinvMass_cut.png Graphic file (type png)
 <use Measurements/ZmumuinvMass_cut.png>
 Package pdftex.def Info: Measurements/ZmumuinvMass_cut.png  used on input line 
-99.
+126.
 (pdftex.def)             Requested size: 700.61578pt x 472.76509pt.
-<Measurements/ZtautaucutFlowHist.png, id=47, 800.9925pt x 573.14125pt>
+<Measurements/ZtautaucutFlowHist.png, id=65, 800.9925pt x 573.14125pt>
 File: Measurements/ZtautaucutFlowHist.png Graphic file (type png)
 <use Measurements/ZtautaucutFlowHist.png>
 Package pdftex.def Info: Measurements/ZtautaucutFlowHist.png  used on input lin
-e 106.
+e 131.
 (pdftex.def)             Requested size: 800.99054pt x 573.13985pt.
-<Measurements/ZtautauinvMass_cut.png, id=48, 700.6175pt x 472.76625pt>
+<Measurements/ZtautauinvMass_cut.png, id=66, 700.6175pt x 472.76625pt>
 File: Measurements/ZtautauinvMass_cut.png Graphic file (type png)
 <use Measurements/ZtautauinvMass_cut.png>
 Package pdftex.def Info: Measurements/ZtautauinvMass_cut.png  used on input lin
-e 113.
+e 136.
 (pdftex.def)             Requested size: 700.61578pt x 472.76509pt.
-<Measurements/Fit.png, id=49, 698.61pt x 473.77pt>
+<Measurements/Fit.png, id=67, 698.61pt x 473.77pt>
 File: Measurements/Fit.png Graphic file (type png)
 <use Measurements/Fit.png>
-Package pdftex.def Info: Measurements/Fit.png  used on input line 124.
+Package pdftex.def Info: Measurements/Fit.png  used on input line 146.
+(pdftex.def)             Requested size: 698.60829pt x 473.76884pt.
+<Measurements/Plot.png, id=68, 698.61pt x 473.77pt>
+File: Measurements/Plot.png Graphic file (type png)
+<use Measurements/Plot.png>
+Package pdftex.def Info: Measurements/Plot.png  used on input line 151.
 (pdftex.def)             Requested size: 698.60829pt x 473.76884pt.
 
 
-[3 <./Measurements/invariant_mass_comp_MC_log1.png>]
+[2 <./Measurements/invariant_mass_comp_MC_log1.png>]
 
-[4 <./Measurements/ZeecutFlowHist.png> <./Measurements/ZeeinvMass_cut.png> <./M
+[3 <./Measurements/ZeecutFlowHist.png> <./Measurements/ZeeinvMass_cut.png> <./M
 easurements/ZmumucutFlowHist.png> <./Measurements/ZmumuinvMass_cut.png> <./Meas
-urements/ZtautaucutFlowHist.png> <./Measurements/ZtautauinvMass_cut.png>]
+urements/ZtautaucutFlowHist.png> <./Measurements/ZtautauinvMass_cut.png> <./Mea
+surements/Fit.png> <./Measurements/Plot.png>]
+<Measurements/tight_Zee_efficiency.png, id=86, 800.9925pt x 573.14125pt>
+File: Measurements/tight_Zee_efficiency.png Graphic file (type png)
+<use Measurements/tight_Zee_efficiency.png>
+Package pdftex.def Info: Measurements/tight_Zee_efficiency.png  used on input l
+ine 187.
+(pdftex.def)             Requested size: 800.99054pt x 573.13985pt.
 
-[5 <./Measurements/Fit.png>] (main.aux)
+
+[4 <./Measurements/tight_Zee_efficiency.png>] (main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-16>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8858DEF6F7A046F62FF2A57A0D9A4BE7;431.
+(rerunfilecheck)             Checksum: ED7DC23B0CC35DE54484839D0A1AF001;350.
  ) 
 Here is how much of TeX's memory you used:
- 38053 strings out of 473899
- 920584 string characters out of 5726501
- 1932960 words of memory out of 5000000
- 60373 multiletter control sequences out of 15000+600000
- 567813 words of font info for 75 fonts, out of 8000000 for 9000
+ 38080 strings out of 473899
+ 921334 string characters out of 5726501
+ 1941960 words of memory out of 5000000
+ 60392 multiletter control sequences out of 15000+600000
+ 568457 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,9n,97p,727b,902s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,10n,97p,950b,904s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmbx12.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi12.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/magnu/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/magnu/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/magnu/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/magnu/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/m
-agnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/
-Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb>
-Output written on main.pdf (5 pages, 222012 bytes).
+cmbx10.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/magnu/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/magnu/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/magnu/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/magnu/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users
+/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+6.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr7.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr8.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr9.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/magnu/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/magnu/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/magnu/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (6 pages, 339543 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
- 85 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 170 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 87 words of extra memory for PDF output out of 10000 (max. 10000000)
 
