@@ -1,0 +1,139 @@
+\documentclass[16pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usetheme{Madrid}
+\begin{document}
+	\author{Figueroa, Q. \& Huth, P. J.}
+	\title{F98}
+	\subtitle{SQUIDs and Noise Thermometers}
+	%\logo{}
+	%\institute{}
+	%\date{}
+	%\subject{}
+	%\setbeamercovered{transparent}
+	%\setbeamertemplate{navigation symbols}{}
+	\begin{frame}[plain]
+		\maketitle
+	\end{frame}
+	
+	% TODO replace for actual content
+	\begin{frame}
+		\frametitle{Structure}
+
+		\begin{itemize}
+			\item Physikalische Fragestellung 
+			\begin{itemize}
+				\item SQUIDs
+				\item Noise Thermometers
+				\item kurze theoretische Einleitung
+			\end{itemize}
+			\item Messprinzip und Apparatur 
+			\item Vorstellung der Messergebnisse und deren Auswertung
+			\item kritische Diskussion der Ergebnisse
+			\item Anmerkung zum Versuch
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Physics in Question}
+		\begin{itemize}
+
+			\item Question: How to measure the temperature of a system using noise.
+			\item Answer: Using a SQUID.\\
+				Very sensitive magnetometers, consisting of superconducting loops interrupted by Josephson junctions.
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{What we measure and why}
+		\begin{enumerate}
+			\item Resistance at room temperature and in liquid Helium:\\
+			Observe the change in Resistence
+			\item Current - Voltage characteristics $V-I$: \\
+			Estimate critical current $I_C$
+			\item Measure the $V-\Phi$ Characteristics:\\
+			Determine the inverse mutual inductance $ M_{IN}^{-1}$ and $M_{\Phi B}^{-1}$
+			\item Measure output resulting from  periodic input signal: \\
+			Determine the amplification
+			\item Measure Noise at different GBP:\\
+			Finding an optimal value for the GBP
+			\item Measure Noise Spectrum with a two stage SQUID: \\
+			Calculate the temperature
+			
+		\end{enumerate}
+	\end{frame}
+		
+	% -----------------
+	\begin{frame}
+		\begin{columns}
+			% Left column for the list
+			\begin{column}{0.4\textwidth}
+				\begin{itemize}
+					% Superconductivity and its sub-items
+					\item<1-2> Superconductivity
+					\begin{itemize}
+						\item<2> Meissner-Ochsenfeld effect
+					\end{itemize}
+					
+					% Josephson junction and its sub-items
+					\item<3-5> Josephson junction
+					\begin{itemize}
+						\item<4> Flux quantization
+						\item<5> Cooper pairs
+					\end{itemize}
+					
+					% SQUIDs and its sub-items
+					\item<6-9> SQUIDs
+					\begin{itemize}
+						\item<7> DC SQUID
+						\item<8> Flux locked loop
+						\item<9> Two-stage SQUID
+					\end{itemize}
+				\end{itemize}
+			\end{column}
+			
+			% Right column for corresponding content
+			\begin{column}{0.6\textwidth}
+				\only<1>{
+					\textbf{Superconductivity:}
+					\par Expulsion of magnetic fields from a superconductor below its critical temperature.
+				}
+				\only<2>{
+					\textbf{Meissner-Ochsenfeld Effect:}
+					\par Expulsion of magnetic fields from a superconductor below its critical temperature.
+				}
+				\only<3>{
+					\textbf{Josephson junction:}
+					\par Josephson junction
+				}
+				\only<4>{
+					\textbf{Flux Quantization :}
+					\par Flux quantization plays a role in the phase relationship between the two superconductors.
+				}
+				\only<5>{
+					\textbf{Cooper Pairs:}
+					\par Cooper pairs tunnel through the insulating barrier, causing the Josephson effect.
+				}
+				\only<6>{
+					\textbf{SQUIDs:}
+					\par SQUIDs.
+				}
+				\only<7>{
+					\textbf{DC SQUID:}
+					\par A superconducting quantum interference device with two Josephson junctions for measuring magnetic flux.
+				}
+				\only<8>{
+					\textbf{Flux Locked Loop:}
+					\par A feedback loop that stabilizes the SQUID output by maintaining constant magnetic flux
+				}
+				\only<9>{
+					\textbf{Two-Stage SQUID:}
+					\par Enhances sensitivity by using a primary SQUID amplified by a secondary stage.
+				}
+			\end{column}
+		\end{columns}
+	\end{frame}
+		
+
+\end{document}
