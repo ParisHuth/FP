@@ -78,7 +78,7 @@ For the identification of electrons, the reconstruction algorithm uses informati
 \section{Procedure and Results}
 In the experiment FP91 we analyse properties of the $Z$ boson using measurements taken in 2012 by the ATLAS experiment, which were published for educational use \footnotemark \footnotetext{"Review Studies for the ATLAS Open Data 8 TeV datasets, tools and activities", CERN, Dec. 2024.\href{https://cds.cern.ch/record/2624572}{[Online]}} \footnotemark \footnotetext{"Review Studies for the ATLAS Open Data Set", CERN, Dec. 2024.\href{https://cds.cern.ch/record/2203649}{[Online].}
 }. The integrated luminosity is $\mathcal{L}_{int} = \SI{1.007\pm 0.0019}{\femto\barn^{-1}}$ and the a center of mass energy $\sqrt{s} = \SI{8}{\tera\electronvolt}$. Additionally, we use MC simulations which were provided by our supervisor. The both data sets, measurements and MC, are tightly preselected by different isolation requisites.
-\subsection{Selection of the data}
+
 We start the experiment by analysing different properties of the measured data. Among them, their [ADD what we do at the beginning ]
 
 By plotting the number of leptons of each event in the measured data set we can see that most of the preselected events contain one lepton as final state. Such events are dominated by $W$ process, e.g. $q\, \bar{q} \to W^+ \to e^-\, \bar{\nu}_e$, revealing that most of the events are not relevant for studying the $Z$ boson. These kind of events can be filtered out by imposing the number of leptons to be $n_l \geq 2$. 
@@ -178,6 +178,16 @@ From the fitted convolution, we are able to determine the mass of the $Z$ boson 
  \end{center}
 \end{table}
 
-As a final part of our analysis we use the tag-and-probe method to determine the efficienc
+As a final part of our analysis we use the tag-and-probe method to determine the efficiency of the different isolation requirements used for the selection of the data. 
+\begin{figure}[htbp]
+    \centering
+    % First row
+
+        \centering
+        \resizebox{0.5\textwidth}{!}{\includegraphics{Measurements/tight_Zee_efficiency.png}}
+    \caption{}
+    \label{fig:}
+\end{figure}
+
 \section{Discussion}
 \end{document}
