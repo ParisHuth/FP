@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.11)  5 JAN 2025 16:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.11)  6 JAN 2025 11:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -997,6 +997,8 @@ l/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}] [5
 
 ] [13
 
+] [14
+
 ]
 \tf@nav=\write6
 \openout6 = `f98.nav'.
@@ -1016,8 +1018,8 @@ Package rerunfilecheck Info: File `f98.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22021 strings out of 474116
- 426714 string characters out of 5743682
+ 22023 strings out of 474116
+ 426733 string characters out of 5743682
  1941187 words of memory out of 5000000
  43877 multiletter control sequences out of 15000+600000
  598861 words of font info for 65 fonts, out of 8000000 for 9000
@@ -1031,10 +1033,10 @@ onts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type
 1/public/lm/lmsso8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/l
 m/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy8.pf
 b>
-Output written on f98.pdf (13 pages, 165257 bytes).
+Output written on f98.pdf (14 pages, 167544 bytes).
 PDF statistics:
- 437 PDF objects out of 1000 (max. 8388607)
- 380 compressed objects within 4 object streams
- 27 named destinations out of 1000 (max. 500000)
+ 465 PDF objects out of 1000 (max. 8388607)
+ 405 compressed objects within 5 object streams
+ 29 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
