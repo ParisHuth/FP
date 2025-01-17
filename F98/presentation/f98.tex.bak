@@ -1,0 +1,169 @@
+\documentclass[16pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usetheme{Madrid}
+\begin{document}
+	\author{Coc, Q. \& Huth, P. J.}
+	\title{F98}
+	\subtitle{SQUIDs and Noise Thermometers}
+	%\logo{}
+	%\institute{}
+	%\date{}
+	%\subject{}
+	%\setbeamercovered{transparent}
+	%\setbeamertemplate{navigation symbols}{}
+	\begin{frame}[plain]
+		\maketitle
+	\end{frame}
+	
+% Structure
+	\begin{frame}
+		\frametitle{Structure}
+		\begin{itemize}
+			\item Goals of the experiment		
+			\item Theoretical Background 
+			\begin{itemize}
+				\item SQUIDs
+				\item Noise Thermometers
+			\end{itemize}
+			\item Measuring principles
+			\begin{itemize}
+				\item dc-SQUID Characteristics
+				\item Flux-Locked-Loop (FLL)
+				\item Two-Stage SQUID-Readout
+				\item Temperature measurement
+			\end{itemize}
+			\item Experimental Setup \& Tasks
+			\item Evaluation of measurements
+			\item Discussion of end results
+			\item Comments 
+		\end{itemize}
+	\end{frame}
+
+%Goals of experiment
+	\begin{frame}
+		\frametitle{Goals of experiment}
+		\begin{itemize}
+			\item Learn basics of low-temperature physics
+			\item Learn basics of SQUIDs and noise thermometers
+			\item Lean how to operate dc-SQUIDs
+		\end{itemize}
+	\end{frame}
+
+%Theoretical Background
+	\begin{frame}
+		\frametitle{Theoretical background}
+	\begin{itemize}
+	\item SQUIDS
+	\end{itemize}		
+	\end{frame}
+	
+	%Theoretical Background
+	\begin{frame}
+		\frametitle{Theoretical background}
+		Noise Thermometers
+
+	\end{frame}
+
+%Experiment Setup: Explain Setup
+%TODO
+	\begin{frame}
+		\frametitle{Experiment Setup \& Tasks}
+
+	\end{frame}
+
+%Experiment Setup: Tasks
+	\begin{frame}
+		\frametitle{Experiment Setup \& Tasks}
+		Tasks and purpose:
+		\begin{enumerate}
+			\item Resistance at room temperature and in liquid Helium:\\
+			Observe the change in Resistence
+			\item Current - Voltage characteristics $V-I$: \\
+			Estimate critical current $I_C$
+			\item Measure the $V-\Phi$ Characteristics:\\
+			Determine the inverse mutual inductance $ M_{IN}^{-1}$ and $M_{\Phi B}^{-1}$
+			\item Measure output resulting from  periodic input signal: \\
+			Determine the amplification
+			\item Measure Noise at different GBP:\\
+			Finding an optimal value for the GBP
+			\item Measure Noise Spectrum with a two stage SQUID: \\
+			Calculate the temperature
+			
+		\end{enumerate}
+	\end{frame}
+		
+	% -----------------
+	\begin{frame}
+		\begin{columns}
+			% Left column for the list
+			\begin{column}{0.4\textwidth}
+				\begin{itemize}
+					% Superconductivity and its sub-items
+					\item<1-2> Superconductivity
+					\begin{itemize}
+						\item<2> Meissner-Ochsenfeld effect
+					\end{itemize}
+					
+					% Josephson junction and its sub-items
+					\item<3-5> Josephson junction
+					\begin{itemize}
+						\item<4> Flux quantization
+						\item<5> Cooper pairs
+					\end{itemize}
+					
+					% SQUIDs and its sub-items
+					\item<6-9> SQUIDs
+					\begin{itemize}
+						\item<7> DC SQUID
+						\item<8> Flux locked loop
+						\item<9> Two-stage SQUID
+					\end{itemize}
+				\end{itemize}
+			\end{column}
+			
+			% Right column for corresponding content
+			\begin{column}{0.6\textwidth}
+				\only<1>{
+					\textbf{Superconductivity:}
+					\par Expulsion of magnetic fields from a superconductor below its critical temperature.
+				}
+				\only<2>{
+					\textbf{Meissner-Ochsenfeld Effect:}
+					\par Expulsion of magnetic fields from a superconductor below its critical temperature.
+				}
+				\only<3>{
+					\textbf{Josephson junction:}
+					\par Josephson junction
+				}
+				\only<4>{
+					\textbf{Flux Quantization :}
+					\par Flux quantization plays a role in the phase relationship between the two superconductors.
+				}
+				\only<5>{
+					\textbf{Cooper Pairs:}
+					\par Cooper pairs tunnel through the insulating barrier, causing the Josephson effect.
+				}
+				\only<6>{
+					\textbf{SQUIDs:}
+					\par SQUIDs.
+				}
+				\only<7>{
+					\textbf{DC SQUID:}
+					\par A superconducting quantum interference device with two Josephson junctions for measuring magnetic flux.
+				}
+				\only<8>{
+					\textbf{Flux Locked Loop:}
+					\par A feedback loop that stabilizes the SQUID output by maintaining constant magnetic flux
+				}
+				\only<9>{
+					\textbf{Two-Stage SQUID:}
+					\par Enhances sensitivity by using a primary SQUID amplified by a secondary stage.
+				}
+			\end{column}
+		\end{columns}
+	\end{frame}
+		
+
+\end{document}
