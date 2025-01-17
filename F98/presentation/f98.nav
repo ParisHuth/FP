@@ -6,6 +6,7 @@
 \headcommand {\beamer@framepages {3}{3}}
 \headcommand {\slideentry {0}{0}{4}{4/4}{}{0}}
 \headcommand {\beamer@framepages {4}{4}}
+<<<<<<< HEAD
 \headcommand {\slideentry {0}{0}{5}{5/5}{}{0}}
 \headcommand {\beamer@framepages {5}{5}}
 \headcommand {\slideentry {0}{0}{6}{6/6}{}{0}}
@@ -19,3 +20,14 @@
 \headcommand {\beamer@sectionpages {1}{16}}
 \headcommand {\beamer@documentpages {16}}
 \headcommand {\gdef \inserttotalframenumber {8}}
+=======
+\headcommand {\slideentry {0}{0}{5}{5/13}{}{0}}
+\headcommand {\beamer@framepages {5}{13}}
+\headcommand {\slideentry {0}{0}{6}{14/14}{}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\beamer@partpages {1}{14}}
+\headcommand {\beamer@subsectionpages {1}{14}}
+\headcommand {\beamer@sectionpages {1}{14}}
+\headcommand {\beamer@documentpages {14}}
+\headcommand {\gdef \inserttotalframenumber {6}}
+>>>>>>> a668660a1709e369ea1315cb004a21444f126fa1
