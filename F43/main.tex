@@ -240,11 +240,21 @@ Aus Tab. \ref{tab:H2_B_mu} lässt sich die Wirkungen der fehlerhafte Untergrundm
 
 Das gemessene Spektren von Deuterium, Fig. \ref{fig:Deuterium} und beide Wasserstoffprobe, Fig. \ref{fig:normal_H2}-\ref{fig:para_H2}, zweigen eine Linienverbreiterung, bzw. die Vergrößerung der Linienbreite unser Raman-Linien. Diese Verbreitung kann durch verschiedene physikalische Phänomene verursacht werden.
 
-Eine der Quelle dieser Verbreiterung ist die s.g. Dopplerverbreiterung. Dieses Phänomen beschreibt Verbreiterung der Spektrallinien zu eine Band aufgrund des Doppler-Effekts, der durch die thermische Bewegung der Moleküle in der Probe verursacht wird. 
+Eine der Quelle dieser Verbreiterung ist die s.g. Dopplerverbreiterung. Dieses Phänomen beschreibt Verbreiterung der Spektrallinien zu eine Band aufgrund des Doppler-Effekts, der durch die thermische Bewegung der Moleküle in der Probe verursacht wird. Dieses Effekt an der Wellenlänge kann mithilfe der Maxwell-Boltzmann Verteilung quantifiziert werden:
+\begin{equation}
+\label{eq:dopp_breite}
+\delta \lambda = \dfrac{\lambda}{c} \sqrt{\dfrac{8k_B T \ln 2}{m_{M}}}. 
+\end{equation}
+Wobei $k_B$ die Boltzmann-Konstante, $T$ die Temperatur, $\lambda$ die Frequenz der Spektrallinien, und $m_{M}$ die Masse des Moleküls. Um die Einfluss zur Verbreiterung dieses Effekt quantitative zu betrachten, berechnen wir die erwartete Breit der erste
+Spektrallinien für Deuterium, bzw. $0\to 2$ Rotationsanregung, berechnen und mit unser Fitparameter Vergleichen. Die Temperatur des Raums würde leider während das Versuch nicht Abgeschrieben, aber wir schätzen sie als $T = \SI{16}{\degree} = \SI{289.15}{K}$ und die Masse der Molekül wird durch das Doppelfach der Masse von Deuterium gegeben. 
 
+Die gemessene Breite der Raman-Linie würde als
+$$\delta \lambda = \SI{0.885 \pm 2}{\nano\meter}$$
+bestimmt. Während durch Verwenden von Gl. \ref{eq:dopp_breite} wir
+$$\delta \lambda =  \SI{0.112}{\nano\meter}$$
+abschätzen. Diese schnelle Abschätzung lässt uns sehen, dass obwohl die Dopplerverbreiterung zur Breite der Spektrallinien beiträgt, dieses Phänomen allein kann die gemessene Breite der Rotations-Raman-Linien erklären. 
 
- Unter andern, die Unschärferelation besagt Teil der Breit aus der Instabilität des virtuelles Niveau vorkommt. Diese Beitrag zu der Breit ist inverse zum Zerfallszeit des virtuellen Niveau, da wir keine Abschätzung der Lebensdau
-
+Wir vermuten, dass andere Verbreitungsquellen wie die Energie-Zeit Unschärferelation und die Auflösung unser Detektor zu der gemessene Breite beitragen. Leide, weder der Lebensdauer des virtuelles Zustandes noch die Auflösungsvermögen unser Detektor bekannt sind um diese weitere Phänomene qualitativ abschätzen zu können. 
 
 \subsection{Vibrationsanregung von Sauerstoff und Stickstoff}
 In diese letzte Abschnitt betrachten wir die Vibrations-Raman Spektrum von Stickstoff und Sauerstoff. Aufgrund der höhere reduzierte Masse und Atomabstand beiden Moleküle, die Rotationskonstante ist deutlich kleine als die Rotationskonstante von Wasserstoff und die Auflösung unser Versuchsaufbau ist nicht hoch genug um die Rotationsstruktur aufzulösen. Trotzdem, da die Vibrationsanregungen eine höhere Energie besitzen, können wir die erste Schwingungsanregung auflösen und messen. 
