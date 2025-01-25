@@ -37,7 +37,7 @@ Im ersten Teil des Vesuchs messen wir  die Abhängigket der Photodiodenspannung 
 \begin{figure}[htbp]
 	\centering
    \resizebox{.8\textwidth}{!}{\includegraphics{Justierung.png}}
-   \caption{Gemessene Abhängigkeit der Photodiodenspannung zur Einfallswinkel (blue Punkte) zusammen mit Linear-Fit der Flanken der Kurve.}
+   \caption{Gemessene Abhängigkeit der Photodiodenspannung zur Einfallswinkel (blue Punkte) zusammen mit Linear-Fit der Flanken der Kurve (rote Linien).}
    \label{fig:justierung}
 \end{figure}
 
@@ -73,7 +73,7 @@ Als zweite Schritt, messen wir die Abhängigkeit der Zählrate zur  angelegten B
 In Fig. \ref{fig:gegeben} wird die PMT-Kennlinie des verwendetes Raman-Filter dargestellt. Aus diesem Diagramm können wir merken, dass im Bereich \num{1.8}$-$\SI{2.0}{\kilo\volt} die Zählrate ein linear Verhältnis zur $U_B$ zeigt. Um sinnvolle Messungen zu nehmen muss das Signal zu Dunkelstrom Verhältnis maximiert werden. Daher können wir ein Spannung $U_B =$ \SI{2.0}{\kilo\volt} als eine gute Wahl angeben.  
 
 \section{Raman-Spektrum}
-In diesen Versuchsteil untersuchen wir die Raman-Spektrum von normales- , para-Wasserstoff, Deuterium, Sauerstoff und Stickstoff. Zu jeden Messreihe gehört ein gemessenen Untergrundspektrum welche von die Spektrum abgezogen werden muss, um die Zählrate der ausgestreuten Photonen zu isolieren. 
+In diesen Versuchsteil untersuchen wir die Raman-Spektrum von normales- , para-Wasserstoff, Deuterium, Sauerstoff und Stickstoff. Zu jeden Messreihe gehört ein gemessenen Untergrundspektrum welche vom Spektrum abgezogen werden muss, um die Zählrate der ramngestreuten Photonen zu isolieren. 
 
 \subsection{Rotationsspektrum von Deuterium}
 Aus dem gemessenen Deuterium-Spektrum, Fig. \ref{fig:Deuterium}, können wir vier Raman-Linien beobachten. Um die gefundene Linien benenne zu können, müssen wir zum erste die erwartete Wellenlängenummer der Linien bestimmt werden.
@@ -81,19 +81,19 @@ Aus dem gemessenen Deuterium-Spektrum, Fig. \ref{fig:Deuterium}, können wir vie
 Die Bestimmung der erwartete der Position der Raman-Linien wird mit der Literaturwerten der Masse von Deuterium und dem Atomabstand eines Deuteriummoleküls $D_2$ durchgeführt:
 $$m_{D} =\SI{2.01588}{\atomicmassunit}$$
 $$r_{D_2} = \SI{74}{\pm}.$$
-Diese werte können an der Gleichung
+Diese Werte setzen wir an der Gleichung
 \begin{equation}
 \label{eq:Rot_const}
 B = \frac{h}{8\pi^2 c \mu r^2}
 \end{equation}
-eingesetzt werden um die erwartete Rotatioskonstante zu bestimmen. Hier $h$ entspricht die Planck'sche Konstant, $c$ die Lichtgeschwindigkeit und $\mu$ die reduzierte Masse:
+um die erwartete Rotatioskonstante zu bestimmen. Hier $h$ entspricht die Planck'sche Konstant, $c$ die Lichtgeschwindigkeit und $\mu$ die reduzierte Masse:
 \begin{equation}
 \label{eq:redu_mass}
 \mu = \dfrac{m_1\cdot m_2}{m_1 + m_2}.
 \end{equation}
 Da wir mit homogenen Moleküle arbeiten, gilt $m_1 = m_2$ und Gl. \ref{eq:redu_mass} vereinfacht sich:
 \begin{equation}
-\mu = \dfrac{1}{2} m
+\mu = \dfrac{1}{2} m.
 \end{equation}
 Wir finden: 
 $$B_{lit}^{D_2} = \SI{30.57}{cm^{-1}}.$$
@@ -109,7 +109,7 @@ gegeben. Und die Wellenlängenummer der Raman-Linie kann durch
 ermittelt werden. In unser Experiment gilt:
 $$\bar{\nu}_{Laser} = \SI{18691.59}{\centi\meter^{-1}}$$
 
-Um die Position der gemessenen Raman-Linien quantitative betrachten zu können, passen wir eine Voigt-Distribution an der einzelne erkennbare Peaks an. Die Voigt-Distributoin ist durch die Faltung einer Gauß- und einer Breit-Wigner Distribution definiert. Die Messwerte und die Fit-Funktion werden in Fig. \ref{fig:Deuterium} dargestellt.
+Um die Position der gemessenen Raman-Linien quantitative betrachten zu können, passen wir eine Voigt-Distribution an der einzelne erkennbare Peaks an und als Fit-Funktion wird die Summe der einzelne angepasste Voigt-Profile gegeben. Die Voigt-Distributoin ist durch die Faltung einer Gauß- und einer Breit-Wigner Distribution definiert. Die Messwerte und die Fit-Funktion werden in Fig. \ref{fig:Deuterium} dargestellt.
 
 Durch Vergleich der gemessenen und erwarteten Position der Linien, können wir die gemessenen Raman-Linien als die erste 4 Rotationsanregungen erkennen. Die gefundene und erwartete Werten werden in Tab. \ref{tab:D2} zusammengefasst und vergleicht. 
 
@@ -142,7 +142,7 @@ Durch Vergleich der gemessenen und erwarteten Position der Linien, können wir d
  \end{center}
 \end{table}
 
-Durch Bestimmung des Abstandes zwischen der Peaks können wir die Rotationskonstante von Deuterium bestimmen indem wir Gl. \ref{eq:nu_rot,j} verwenden. Durch dieser Art und Weise können wir 3 Werte berechnen für $B$ abschätzen. Als Endergebnisse werden den Mittelwert und der zugehörige  Standardabweichung verwendet: 
+Durch Bestimmung des Abstandes zwischen der Peaks können wir die Rotationskonstante von Deuterium bestimmen indem wir Gl. \ref{eq:nu_rot,j} verwenden. Durch dieser Art und Weise können wir 3 Werte für $B$ berechnen. Als Endergebnisse werden den Mittelwert und der zugehörige  Standardabweichung verwendet: 
 $$B_{exp}^{D_2} = \SI{28.5\pm 0.5}{cm^{-1}}.$$
 Wir beobachten eine signifikante Abweichung zum erwartete Wert:
 $$\sigma_{B^D_2} = 4.01$$ 
@@ -154,7 +154,7 @@ $$\sigma_{\mu^D_2} = 3.74.$$
 Die große Abweichungen werden später ausführlich besprechen. 
 
 \subsection{Rotationsspektrum von ortho- und para-Wasserstoff}
-Zunächst, führen wir ein ähnliches Analyse wie bei Deuterium mit dem gemessenen Spektrum von ortho- und para-Wasserstoff durch. 
+Zunächst, führen wir ein ähnliches Analyse wie bei Deuterium mit dem gemessenen Spektrum von ortho- und para-Wasserstoff durch.
 
 Für die Bestimmung der erwartete Rotationskonstante und Wellenlängenummer der Raman-Linien verwenden wir folgende Werte für der Abstand von $H_2$ und Masse von $H$:
 
@@ -166,6 +166,7 @@ $$B_{lit}^{H_2} = \SI{61.0841}{cm^{-1}} $$
 Analog wie bei letzten Abschnitt, passen wir ein Voigt-Distribution an jeder erkennbare Peak an und bilden die Fit-Fuktion aus die Summe der einzelne Voigt-Fits. Als Wellelängenummer wird die Position der Maxima der Distribution und der zugehörige Fehler angegeben. Das gemessene Spektrum von normal-$H_2$ zusammen mit der Fit-Funktion wird in Fig. \ref{fig:normal_H2} geplottet. Während das Spektrum der para-$H_2$ Probe wird in Fig. \ref{fig:para_H2} dargestellt. Mithilfe dieses letzten Diagramm stellen wir fest, dass die Untergrundmessung der para-$H_2$ Probe nicht erfolgreich war, denn nachdem der Untergrundabzug durchgeführt wird, beobachten wir eine Verschiebung des Spektrums um c.a 43 a.E in der y-Achse. 
 
 Durch Vergleich der erwartete und gemessene Wellenlängenummer der Raman-Spektrum von Wasserstoff können wir die gefundene Peaks als die erste Rotationsanregungen erkennen. Die gemessene und erwartete Wellenlängernummer der Raman-Linien werden in Tab. \ref{tab:H2} zusamengefasst und vergleicht. Zusätzlich, wird die Intensität der Raman-Linien in der selben Tabelle zusammengefasst um die Reinheit der para-Wasserstoff abzuschätzen. 
+
 
 \begin{figure}[htbp]
 	\centering
@@ -180,6 +181,8 @@ Durch Vergleich der erwartete und gemessene Wellenlängenummer der Raman-Spektru
    \caption{\small Raman-Spektrum von para-Wasserstoff. Gemessenen Spektrum eine normal-Wasserstoff Probe nach Untergrundabzug (blaue Punkte) mit Fit-Funktion (schwarze Linie). Die gefundene Raman-Linien sind durch gestrichtelte rote Linien markiert.}
    \label{fig:para_H2}
 \end{figure}
+
+Als erwarte, können wir sehen wie der Raman-Linie der ungeraden Vibrationsquanten in der para-$H_2$ Spektrum unterdrückt werden, Fig. \ref{fig:para_H2}, da diese zur ortho-Wasserstoff gehören. Wir erinnern uns, dass die beide Wasserstoffisomeren Spin 0 (para) und 1 (ortho) besitzen, und daher nur gerade oder ungerade Zustände erlaubt sind, aber nicht beiden. Die kleine, aber endliche Intensität der zweite Rotationsanregung, $I_{\nu  = 1 \to 3}$, besagt, dass die para-Wasserstoff Probe noch eine endliche Anzahl an ortho-$H_2$ besitzt. Durch Berechnung der Verhältnis zwischen die Intensität der erste $I_{\nu  = 0 \to 2}$ und zweite $I_{\nu  = 1 \to 3}$ Raman-Linien, können wir finden, dass in der para-$H_2$ Probe aus 1 Teil ortho- und 25 Teile para-Wasserstoff entsteht (1:25). Daher die Probe besteht aus c.a $96.2\%$ para-Wasserstoff und die Reinheit dieser kann als hoch beurteilt werden. Wird der Verhältnis der beide Intensitäten mit der Fitparameter der normal-Wasserstoff, so finden wir, dass die Probe ein Verhältnis 3:1 beschreibt, was mit der Literatur in klang liegt.  
 
 \begin{table}[!htbp]
  \begin{center}
@@ -202,8 +205,6 @@ Durch Vergleich der erwartete und gemessene Wellenlängenummer der Raman-Spektru
   \renewcommand{\arraystretch}{1}
  \end{center}
 \end{table}
-
-
 
 Aus der Tabelle können wir lesen, dass erneut signifikanten Abweichungen zwischen die erwartete und gemessene Werte bei beiden Messreihen, bzw. normal- und para-$H_2$, vorkommen.  
 
@@ -231,8 +232,7 @@ $\mu$ [$\unit{\atomicmassunit}$] & $\num{0.532\pm0.002}$& $\num{0.5\pm0.3}$&0.50
  \end{center}
 \end{table}
 
-
-
+Aus Tab. \ref{tab:H2_B_mu} lässt sich die Wirkungen der fehlerhafte Untergrundmessung für para-$H_2$ beobachten. Die Verschiebung in y-Achse hat die Genauigkeit der Fitparametern stark reduziert, im Vergleich zum normal-$H_2$. Für die Fits wurde es versuch die Verschiebung in y-Richtung miteinzubeziehen, trotzdem bleiben die Größe Unschärfe der Fitparameter. Aus diesem Grund kann sind die Abweichungen kleiner als bei normal-$H_2$, selbst wenn die Werte nicht signifikant näher am Literaturwert liegen. Die beobachtete signifikante Abweichungen werden später in der Diskussion behandeln. 
 
 \subsection{Vibrationsanregung von Sauerstoff und Stickstoff}
 \end{document}
