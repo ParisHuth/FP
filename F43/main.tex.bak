@@ -182,7 +182,7 @@ Durch Vergleich der erwartete und gemessene Wellenlängenummer der Raman-Spektru
    \label{fig:para_H2}
 \end{figure}
 
-Als erwarte, können wir sehen wie der Raman-Linie der ungeraden Vibrationsquanten in der para-$H_2$ Spektrum unterdrückt werden, Fig. \ref{fig:para_H2}, da diese zur ortho-Wasserstoff gehören. Wir erinnern uns, dass die beide Wasserstoffisomeren Spin 0 (para) und 1 (ortho) besitzen, und daher nur gerade oder ungerade Zustände erlaubt sind, aber nicht beiden. Die kleine, aber endliche Intensität der zweite Rotationsanregung, $I_{\nu  = 1 \to 3}$, besagt, dass die para-Wasserstoff Probe noch eine endliche Anzahl an ortho-$H_2$ besitzt. Durch Berechnung der Verhältnis zwischen die Intensität der erste $I_{\nu  = 0 \to 2}$ und zweite $I_{\nu  = 1 \to 3}$ Raman-Linien, können wir finden, dass in der para-$H_2$ Probe aus 1 Teil ortho- und 25 Teile para-Wasserstoff entsteht (1:25). Daher die Probe besteht aus c.a $96.2\%$ para-Wasserstoff und die Reinheit dieser kann als hoch beurteilt werden. Wird der Verhältnis der beide Intensitäten mit der Fitparameter der normal-Wasserstoff, so finden wir, dass die Probe ein Verhältnis 3:1 beschreibt, was mit der Literatur in klang liegt.  
+Als erwarte, können wir sehen wie der Raman-Linie der ungeraden Vibrationsquanten in der para-$H_2$ Spektrum unterdrückt werden, Fig. \ref{fig:para_H2}, da diese zur ortho-Wasserstoff gehören. Wir erinnern uns, dass die beide Wasserstoffisomeren Spin 0 (para) und 1 (ortho) besitzen, und daher nur gerade (para) oder ungerade  (ortho) Zustände zulassen, aber nicht beiden. Die kleine, aber endliche Intensität der zweite Rotationsanregung, $I_{\nu  = 1 \to 3}$, besagt, dass die para-Wasserstoff Probe noch eine endliche Anzahl an ortho-$H_2$ besitzt. Durch Berechnung der Verhältnis zwischen die Intensität der erste $I_{\nu  = 0 \to 2}$ und zweite $I_{\nu  = 1 \to 3}$ Raman-Linien, können wir finden, dass  die para-$H_2$ Probe aus 1 Teil ortho- und 25 Teilen para-Wasserstoff entsteht (1:25). Daher die Probe besteht aus c.a $96.2\%$ para-Wasserstoff und die Reinheit dieser kann als hoch beurteilt werden. Wird das Verhältnis der beide Intensitäten mit der Fitparameter der normal-Wasserstoff gerechnet, so finden wir, dass die Probe ein Verhältnis 3:1 beschreibt, was mit der Literatur in klang liegt.  
 
 \begin{table}[!htbp]
  \begin{center}
@@ -237,13 +237,39 @@ Aus Tab. \ref{tab:H2_B_mu} lässt sich die Wirkungen der fehlerhafte Untergrundm
 \subsection{Vibrationsanregung von Sauerstoff und Stickstoff}
 In diese letzte Abschnitt betrachten wir die Vibrations-Raman Spektrum von Stickstoff und Sauerstoff. Aufgrund der höhere reduzierte Masse und Atomabstand beiden Moleküle, die Rotationskonstante ist deutlich kleine als die Rotationskonstante von Wasserstoff und die Auflösung unser Versuchsaufbau ist nicht hoch genug um die Rotationsstruktur aufzulösen. Trotzdem, da die Vibrationsanregungen eine höhere Energie besitzen, können wir die erste Schwingungsanregung auflösen und messen. 
 
-Um die erwartete Wellenlängenummer abzuschätzen, berechnen wir die Vibrationskonstante für beide Moleküle mithilfe der Gleichung:
+\begin{figure}[htbp]
+	\centering
+   \resizebox{1.0\textwidth}{!}{\includegraphics{02_spektrum.png}}
+   \caption{\small Raman-Spektrum von Sauerstoff. Gemessenen Spektrum eine normal-Wasserstoff Probe nach Untergrundabzug (blaue Punkte) mit Fit-Funktion (orange Linie). Die gefundene Raman-Linie ist durch eine gestrichelte orange Linie markiert.}
+   \label{fig:O2}
+\end{figure}
+
+
+\begin{figure}[htbp]
+	\centering
+   \resizebox{1.0\textwidth}{!}{\includegraphics{N2_spektrum.png}}
+   \caption{\small Raman-Spektrum von Sauerstoff. Gemessenen Spektrum eine normal-Wasserstoff Probe nach Untergrundabzug (grüne Punkte) mit Fit-Funktion (lila Linie). Die gefundene Raman-Linie ist durch eine gestrichelte lila Linie markiert.}
+   \label{fig:N2}
+\end{figure}
+
+Analog wie bei letzten Versuchsteilen, fitten wir ein Voig-Profil and der Peaks unseren Messungen. Die Messdaten und die Fit-Funktion werden in Fig. \ref{fig:O2} und \ref{fig:N2} dargestellt. Aus der Fitparameter, können wir die Wellenlängenummer unser gemessene Raman-Linien lesen:
+
+$$\bar{\nu}^{O_2} = \SI{17216.6\pm 0.5}{cm^{-1}}$$
+$$\bar{\nu}^{N_2} = \SI{16446\pm 6}{cm^{-1}}$$
+
+und sie in Gleichung
+\begin{equation}
+E_{vib} = hc\bar{\nu}_{fit}- hc\bar{\nu}_{Laser}
+\end{equation}
+einsetzen um die Schwingungsübergangsenergie zu bestimmen. 
+
+Um die erwartete Energie abzuschätzen, berechnen wir die Vibrationskonstante für beide Moleküle mithilfe der Gleichung:
 \begin{equation}
 \omega_e = \omega \left( v + \dfrac{1}{2} \right),
 \end{equation}
 wo die Kreisfrequenz als 
 \begin{equation}
-\omega = \sqrt{\dfrac{\kappa}{\mu}} = \sqrt{\dfrac{E_{bindung}}{r^2\mu}}
+\omega = \sqrt{\dfrac{\kappa}{\mu}} = \sqrt{\dfrac{2E_{B}}{r^2\mu}}.
 \end{equation}
 
 
