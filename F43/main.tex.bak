@@ -167,7 +167,6 @@ Analog wie bei letzten Abschnitt, passen wir ein Voigt-Distribution an jeder erk
 
 Durch Vergleich der erwartete und gemessene Wellenlängenummer der Raman-Spektrum von Wasserstoff können wir die gefundene Peaks als die erste Rotationsanregungen erkennen. Die gemessene und erwartete Wellenlängernummer der Raman-Linien werden in Tab. \ref{tab:H2} zusamengefasst und vergleicht. Zusätzlich, wird die Intensität der Raman-Linien in der selben Tabelle zusammengefasst um die Reinheit der para-Wasserstoff abzuschätzen. 
 
-Aus beiden Diagramme können wir, al
 
 \begin{figure}[htbp]
 	\centering
@@ -182,6 +181,8 @@ Aus beiden Diagramme können wir, al
    \caption{\small Raman-Spektrum von para-Wasserstoff. Gemessenen Spektrum eine normal-Wasserstoff Probe nach Untergrundabzug (blaue Punkte) mit Fit-Funktion (schwarze Linie). Die gefundene Raman-Linien sind durch gestrichtelte rote Linien markiert.}
    \label{fig:para_H2}
 \end{figure}
+
+Als erwarte, können wir sehen wie der Raman-Linie der ungeraden Vibrationsquanten in der para-$H_2$ Spektrum unterdrückt werden, Fig. \ref{fig:para_H2}, da diese zur ortho-Wasserstoff gehören. Wir erinnern uns, dass die beide Wasserstoffisomeren Spin 0 (para) und 1 (ortho) besitzen, und daher nur gerade oder ungerade Zustände erlaubt sind, aber nicht beiden. Die kleine, aber endliche Intensität der zweite Rotationsanregung, $I_{\nu  = 1 \to 3}$, besagt, dass die para-Wasserstoff Probe noch eine endliche Anzahl an ortho-$H_2$ besitzt. Durch Berechnung der Verhältnis zwischen die Intensität der erste $I_{\nu  = 0 \to 2}$ und zweite $I_{\nu  = 1 \to 3}$ Raman-Linien, können wir finden, dass in der para-$H_2$ Probe aus 1 Teil ortho- und 25 Teile para-Wasserstoff entsteht (1:25). Daher die Probe besteht aus c.a $96.2\%$ para-Wasserstoff und die Reinheit dieser kann als hoch beurteilt werden. Wird der Verhältnis der beide Intensitäten mit der Fitparameter der normal-Wasserstoff, so finden wir, dass die Probe ein Verhältnis 3:1 beschreibt, was mit der Literatur in klang liegt.  
 
 \begin{table}[!htbp]
  \begin{center}
@@ -233,7 +234,17 @@ $\mu$ [$\unit{\atomicmassunit}$] & $\num{0.532\pm0.002}$& $\num{0.5\pm0.3}$&0.50
 
 Aus Tab. \ref{tab:H2_B_mu} lässt sich die Wirkungen der fehlerhafte Untergrundmessung für para-$H_2$ beobachten. Die Verschiebung in y-Achse hat die Genauigkeit der Fitparametern stark reduziert, im Vergleich zum normal-$H_2$. Für die Fits wurde es versuch die Verschiebung in y-Richtung miteinzubeziehen, trotzdem bleiben die Größe Unschärfe der Fitparameter. Aus diesem Grund kann sind die Abweichungen kleiner als bei normal-$H_2$, selbst wenn die Werte nicht signifikant näher am Literaturwert liegen. Die beobachtete signifikante Abweichungen werden später in der Diskussion behandeln. 
 
-Letztens schätzen wir die Reinheit der para-$H_2$ Probe ab. Dafür betrachten wir die 
-
 \subsection{Vibrationsanregung von Sauerstoff und Stickstoff}
+In diese letzte Abschnitt betrachten wir die Vibrations-Raman Spektrum von Stickstoff und Sauerstoff. Aufgrund der höhere reduzierte Masse und Atomabstand beiden Moleküle, die Rotationskonstante ist deutlich kleine als die Rotationskonstante von Wasserstoff und die Auflösung unser Versuchsaufbau ist nicht hoch genug um die Rotationsstruktur aufzulösen. Trotzdem, da die Vibrationsanregungen eine höhere Energie besitzen, können wir die erste Schwingungsanregung auflösen und messen. 
+
+Um die erwartete Wellenlängenummer abzuschätzen, berechnen wir die Vibrationskonstante für beide Moleküle mithilfe der Gleichung:
+\begin{equation}
+\omega_e = \omega \left( v + \dfrac{1}{2} \right),
+\end{equation}
+wo die Kreisfrequenz als 
+\begin{equation}
+\omega = \sqrt{\dfrac{\kappa}{\mu}} = \sqrt{\dfrac{E_{bindung}}{r^2\mu}}
+\end{equation}
+
+
 \end{document}
