@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.1)  3 FEB 2025 19:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.1)  10 MAR 2025 20:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./main.tex
-(main.tex
+**./main_for.tex
+(main_for.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-16>
 (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -376,6 +376,9 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip62
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count305
+)
+(C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty
+Package: import 2020/04/01  v 6.2
 )
 (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
@@ -896,34 +899,34 @@ Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
 \ar@cellbox=\box78
 ))
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 32.
+h' as default language. on input line 33.
 
 (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count348
 \l__pdf_internal_box=\box79
-) (main.aux)
-\openout1 = `main.aux'.
+) (main_for.aux)
+\openout1 = `main_for.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -985,10 +988,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 32.
- (main.out) (main.out)
+Package hyperref Info: Link coloring ON on input line 33.
+ (main_for.out) (main_for.out)
 \@outlinefile=\write4
-\openout4 = `main.out'.
+\openout4 = `main_for.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
@@ -1003,23 +1006,23 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 32.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
+or `english'. on input line 33.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
 
 
 (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
 
 
 (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Justierung.png, id=39, 722.7pt x 433.62pt>
+<Justierung.png, id=35, 722.7pt x 433.62pt>
 File: Justierung.png Graphic file (type png)
 <use Justierung.png>
-Package pdftex.def Info: Justierung.png  used on input line 39.
+Package pdftex.def Info: Justierung.png  used on input line 41.
 (pdftex.def)             Requested size: 722.69823pt x 433.61894pt.
 
 
@@ -1027,50 +1030,58 @@ Package pdftex.def Info: Justierung.png  used on input line 39.
 
 {C:/Users/magnu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Justierung
 .png>]
-<PMT_Kennlinie_fail.png, id=57, 722.7pt x 433.62pt>
+<PMT_Kennlinie_fail.png, id=53, 722.7pt x 433.62pt>
 File: PMT_Kennlinie_fail.png Graphic file (type png)
 <use PMT_Kennlinie_fail.png>
-Package pdftex.def Info: PMT_Kennlinie_fail.png  used on input line 57.
+Package pdftex.def Info: PMT_Kennlinie_fail.png  used on input line 59.
 (pdftex.def)             Requested size: 722.69823pt x 433.61894pt.
-<PMT_Kennlinie.png, id=58, 722.7pt x 433.62pt>
+<PMT_Kennlinie.png, id=54, 722.7pt x 433.62pt>
 File: PMT_Kennlinie.png Graphic file (type png)
 <use PMT_Kennlinie.png>
-Package pdftex.def Info: PMT_Kennlinie.png  used on input line 64.
+Package pdftex.def Info: PMT_Kennlinie.png  used on input line 66.
 (pdftex.def)             Requested size: 722.69823pt x 433.61894pt.
 
 
 [2 <./PMT_Kennlinie_fail.png> <./PMT_Kennlinie.png>]
-<D2_spektrum.png, id=73, 794.97pt x 361.35pt>
+<D2_spektrum.png, id=69, 794.97pt x 361.35pt>
 File: D2_spektrum.png Graphic file (type png)
 <use D2_spektrum.png>
-Package pdftex.def Info: D2_spektrum.png  used on input line 118.
+Package pdftex.def Info: D2_spektrum.png  used on input line 120.
 (pdftex.def)             Requested size: 794.96806pt x 361.34912pt.
 
 
 [3]
 
 [4 <./D2_spektrum.png>]
-Overfull \hbox (26.42247pt too wide) in paragraph at lines 167--168
-\OT1/cmr/m/n/10.95 Peak an und bilden die Fit-Fuktion aus die Summe der einzeln
-e Voigt-Fits. Als Wellel^^?angenummer
- []
-
-<H2_spektrum.png, id=97, 794.97pt x 361.35pt>
+<H2_spektrum.png, id=93, 794.97pt x 361.35pt>
 File: H2_spektrum.png Graphic file (type png)
 <use H2_spektrum.png>
-Package pdftex.def Info: H2_spektrum.png  used on input line 173.
+Package pdftex.def Info: H2_spektrum.png  used on input line 174.
 (pdftex.def)             Requested size: 794.96806pt x 361.34912pt.
-<paraH2_spektrum.png, id=98, 794.97pt x 361.35pt>
+<paraH2_spektrum.png, id=94, 794.97pt x 361.35pt>
 File: paraH2_spektrum.png Graphic file (type png)
 <use paraH2_spektrum.png>
-Package pdftex.def Info: paraH2_spektrum.png  used on input line 180.
+Package pdftex.def Info: paraH2_spektrum.png  used on input line 181.
 (pdftex.def)             Requested size: 794.96806pt x 361.34912pt.
+
+Underfull \hbox (badness 1019) in paragraph at lines 182--182
+[]\OT1/cmr/m/n/10.95 Figure 5: |\OT1/cmr/m/n/10 Raman-Spektrum von para-Wassers
+toff. Gemessenes Spek-trum einer nor-malen
+ []
+
+
+Overfull \hbox (1.91927pt too wide) in paragraph at lines 186--187
+\OT1/cmr/m/n/10.95 ten im para-$\OML/cmm/m/it/10.95 H[]$\OT1/cmr/m/n/10.95 -Spe
+ktrum un-terdr^^?uckt wer-den, Fig. [][]5[][], da diese zu ortho-Wasserstoff ge
+h^^?oren.
+ []
+
 
 
 [5]
 
 [6 <./H2_spektrum.png> <./paraH2_spektrum.png>]
-Overfull \hbox (5.14897pt too wide) in paragraph at lines 193--206
+Overfull \hbox (5.14897pt too wide) in paragraph at lines 194--207
  [] 
  []
 
@@ -1079,54 +1090,56 @@ Overfull \hbox (5.14897pt too wide) in paragraph at lines 193--206
 [7]
 
 [8]
-<02_spektrum.png, id=133, 794.97pt x 361.35pt>
+<02_spektrum.png, id=129, 794.97pt x 361.35pt>
 File: 02_spektrum.png Graphic file (type png)
 <use 02_spektrum.png>
-Package pdftex.def Info: 02_spektrum.png  used on input line 264.
+Package pdftex.def Info: 02_spektrum.png  used on input line 261.
 (pdftex.def)             Requested size: 794.96806pt x 361.34912pt.
-<N2_spektrum.png, id=134, 794.97pt x 361.35pt>
+<N2_spektrum.png, id=130, 794.97pt x 361.35pt>
 File: N2_spektrum.png Graphic file (type png)
 <use N2_spektrum.png>
-Package pdftex.def Info: N2_spektrum.png  used on input line 272.
+Package pdftex.def Info: N2_spektrum.png  used on input line 268.
 (pdftex.def)             Requested size: 794.96806pt x 361.34912pt.
 
 
-[9 <./02_spektrum.png>] (summary.tex
+[9 <./02_spektrum.png>]
 
 [10 <./N2_spektrum.png>]
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 6.
-
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 6.
-
-Missing character: There is no ´ in font cmr10!
-
-Overfull \hbox (40.517pt too wide) in paragraph at lines 12--13
-\OT1/cmr/m/n/10.95 re-gung gemessen wer-den. Die gemesse-nen Schwingungsen-ergi
-en be-tru-gen $\OML/cmm/m/it/10.95 E[] \OT1/cmr/m/n/10.95 = []$meV
+Overfull \hbox (10.12924pt too wide) in paragraph at lines 323--324
+\OT1/cmr/m/n/10.95 Dabei zeigten sich die er-warteten Ro-ta-tion-san-re-gun-gen
+, und die Rein-heit der para-Wasserstoff-
  []
 
-)
 
-[11]
+Overfull \hbox (18.3128pt too wide) in paragraph at lines 327--328
+\OT1/cmr/m/n/10.95 re-gung gemessen wer-den. Die gemesse-nen Schwingungsen-ergi
+en be-tru-gen $\OML/cmm/m/it/10.95 E[] \OT1/cmr/m/n/10.95 = []$
+ []
 
-[12] (main.aux)
+
+Overfull \hbox (14.81337pt too wide) in paragraph at lines 334--335
+\OT1/cmr/m/n/10.95 Trotz dieser Her-aus-forderun-gen kon-nten durch Ver-wen-den
+ vom al-ten Mess-werten die Rotations-
+ []
+
+
+
+[11] (main_for.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-16>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 313EFB81E02265DB3A03FAAC50090F4F;1577.
+Package rerunfilecheck Info: File `main_for.out' has not changed.
+(rerunfilecheck)             Checksum: B63BD7122321D732421787938B5C3982;1565.
  ) 
 Here is how much of TeX's memory you used:
- 38119 strings out of 473899
- 920689 string characters out of 5726501
+ 38139 strings out of 473899
+ 921296 string characters out of 5726501
  1943960 words of memory out of 5000000
- 60410 multiletter control sequences out of 15000+600000
- 567821 words of font info for 74 fonts, out of 8000000 for 9000
+ 60434 multiletter control sequences out of 15000+600000
+ 567480 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,97p,1150b,902s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,11n,97p,1167b,902s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -1142,11 +1155,10 @@ C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
 /cm/cmr7.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmr8.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/magnu/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (12 pages, 467099 bytes).
+s/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main_for.pdf (11 pages, 460887 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 117 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 222 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

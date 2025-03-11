@@ -133,9 +133,9 @@ Durch Vergleich der gemessenen und erwarteten Position der Linien können wir di
  					 & gemessen & erwartet &    			\\ 
   \hline
 	\hline 
-0 & $\num{18471.7\pm 1.1}$	& 18507.17	& 33.4 \\
-1 & $\num{18356.5	\pm 0.9}$	& 18385.88	& 31.3 \\
-2 & $\num{18245\pm 3}$	& 18263.60	& 6.5	 \\
+0 & $\num{18594\pm 1.1}$	& 18471.74	& 33.4 \\
+1 & $\num{18471.87	\pm 0.9}$	& 18385.88	& 31.3 \\
+2 & $\num{18349.59\pm 3}$	& 18263.60	& 6.5	 \\
 3 & $\num{18129\pm 4}$	& 18141.32	& 3.22 \\
 	\hline
   \end{tabular}
