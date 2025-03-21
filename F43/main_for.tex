@@ -20,6 +20,7 @@
 \pgfplotsset{compat=1.14}
 \bibliographystyle{abbrvnat}
 \usepackage{siunitx} % for correct formatting of units
+\sisetup{separate-uncertainty=true}
 \providecommand{\mathdefault}[1]{\mathrm{#1}}
 \DeclareMathOperator{\arctanh}{arctanh}
 % Define atomic mass unit (u)
@@ -68,11 +69,13 @@ Im zweiten Schritt messen wir die Abhängigkeit der Zählrate von der angelegten
         \label{fig:gegeben}
     \end{subfigure}
     % Second row
-    \caption{PMT-Kennlinie. Abhängigkeit der Zählrate von der angelegten Beschleunigungsspannung. a) Messreihe mit fehlerhaftem Laser. b) Messreihe mit funktionsfähigem Laser (alte Messwerte vom Betreuer erhalten).}
+    \caption{PMT-Kennlinie. Abhängigkeit der Zählrate von der angelegten Beschleunigungsspannung. a) Messreihe mit fehlerhaftem Laser. b) Messreihe mit funktionsfähigem Laser mit linearem Fit (alte Messwerte vom Betreuer erhalten).}
     \label{fig:PMT_Kennlinie}
 \end{figure}
 
-In Fig. \ref{fig:gegeben} wird die PMT-Kennlinie des verwendeten Raman-Filters dargestellt. Aus diesem Diagramm können wir erkennen, dass im Bereich von \num{1.8} bis \SI{2.0}{\kilo\volt} die Zählrate ein lineares Verhältnis zu $U_B$ zeigt. Um sinnvolle Messungen durchzuführen, muss das Signal-zu-Rausch-Verhältnis maximiert werden. Daher können wir eine Spannung von $U_B =$ \SI{2.0}{\kilo\volt} als eine gute Wahl angeben.
+In Fig. \ref{fig:gegeben} wird die PMT-Kennlinie des verwendeten Raman-Filters dargestellt . Aus diesem Diagramm können wir erkennen, dass im Bereich von \num{1.8} bis \SI{2.0}{\kilo\volt} die Zählrate ein fast lineares Verhältnis zu $U_B$ zeigt. 
+% todo nicht linear
+Um sinnvolle Messungen durchzuführen, muss das Signal-zu-Rausch-Verhältnis maximiert werden. Daher können wir eine Spannung von $U_B =$ \SI{2.0}{\kilo\volt} als eine gute Wahl angeben.
 
 \section{Raman-Spektrum}
 In diesem Versuchsteil untersuchen wir das Raman-Spektrum von den zwei Kernspinisomeren von Protium und das Spekturm von Deuterium, Sauerstoff und Stickstoff. Zu jeder Messreihe gehört ein gemessenes Untergrundspektrum, das vom Spektrum abgezogen werden muss, um die Zählrate der ramangestreuten Photonen zu isolieren.
@@ -183,7 +186,13 @@ Durch Vergleich der erwarteten und gemessenen Wellenzahl der Raman-Spektren von 
    \label{fig:para_H2}
 \end{figure}
 
-Wie erwartet können wir sehen, dass die Raman-Linien der ungeraden Vibrationsquanten im para-$H_2$-Spektrum unterdrückt werden, Fig. \ref{fig:para_H2}, da diese zu ortho-Wasserstoff gehören. Wir erinnern uns, dass die beiden Wasserstoffisomeren Spin 0 (para) und 1 (ortho) besitzen und daher nur gerade (para) oder ungerade (ortho) Zustände zulassen, aber nicht beide. Die kleine, aber endliche Intensität der zweiten Rotationsanregung, $I_{\nu  = 1 \to 3}$, zeigt, dass die para-Wasserstoff-Probe noch eine endliche Anzahl an ortho-$H_2$ enthält. Durch Berechnung des Verhältnisses zwischen der Intensität der ersten $I_{\nu  = 0 \to 2}$ und der zweiten $I_{\nu  = 1 \to 3}$ Raman-Linie können wir feststellen, dass die para-$H_2$-Probe aus 1 Teil ortho- und 25 Teilen para-Wasserstoff besteht (1:25). Daher besteht die Probe zu ca. $96.2\%$ aus para-Wasserstoff, und die Reinheit kann als hoch beurteilt werden. Wird das Verhältnis der beiden Intensitäten mit den Fitparametern des normalen Wasserstoffs berechnet, so finden wir, dass die Probe ein Verhältnis von 3:1 beschreibt, was mit der Literatur übereinstimmt.
+Wie erwartet können wir sehen, dass die Raman-Linien der ungeraden Vibrationsquanten im para-$H_2$-Spektrum unterdrückt werden, Fig. \ref{fig:para_H2}, da diese zu ortho-Wasserstoff gehören. Wir erinnern uns, dass die beiden Wasserstoffisomeren Spin 0 (para) und 1 (ortho) besitzen und daher nur gerade (para) oder ungerade (ortho) Zustände zulassen, aber nicht beide. Die kleine, aber endliche Intensität der zweiten Rotationsanregung, $I_{\nu  = 1 \to 3}$, zeigt, dass die para-Wasserstoff-Probe noch eine endliche Anzahl an ortho-$H_2$ enthält. Durch Berechnung des Verhältnisses zwischen der Intensität der ersten $I_{\nu  = 0 \to 2}$ und der zweiten $I_{\nu  = 1 \to 3}$ Raman-Linie können wir feststellen, dass die para-$H_2$-Probe aus 1 Teil ortho- und 25 Teilen para-Wasserstoff besteht (1:25). Daher besteht die Probe zu ca. $96.2\%$ aus para-Wasserstoff, und die Reinheit kann als hoch beurteilt werden. Wird das Verhältnis der beiden Intensitäten mit den Fitparametern des normalen Wasserstoffs berechnet
+
+\begin{equation}
+	\frac{g_\text{normal}}{g_\text{para}}=3\cdot\frac{I_\text{normal}^0}{I_\text{normal}^1}\cdot\frac{I_\text{para}^0}{I_\text{para}^1},
+\end{equation}
+
+so finden wir, dass die Probe ein Verhältnis von 3:1 beschreibt, was mit der Literatur übereinstimmt.
 
 \begin{table}[!htbp]
  \begin{center}
