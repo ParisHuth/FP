@@ -72,7 +72,20 @@ Im zweiten Schritt messen wir die Abhängigkeit der Zählrate von der angelegten
     \label{fig:PMT_Kennlinie}
 \end{figure}
 
-In Fig. \ref{fig:gegeben} wird die PMT-Kennlinie des verwendeten Raman-Filters dargestellt. Aus diesem Diagramm können wir erkennen, dass im Bereich von \num{1.8} bis \SI{2.0}{\kilo\volt} die Zählrate ein lineares Verhältnis zu $U_B$ zeigt. Um sinnvolle Messungen durchzuführen, muss das Signal-zu-Rausch-Verhältnis maximiert werden. Daher können wir eine Spannung von $U_B =$ \SI{2.0}{\kilo\volt} als eine gute Wahl angeben.
+In Fig. \ref{fig:gegeben} wird die PMT-Kennlinie des verwendeten Raman-Filters dargestellt. Aus diesem Diagramm lässt sich vermuten, dass im Bereich von \num{1.8} bis \SI{2.0}{\kilo\volt} die Zählrate ein lineares Verhältnis zu $U_B$ aufweist. Um dieses Verhältniss qualitative zu überprüfen, wird ein lineare Funktion an diesem Bereich angepasst. Um eine ganauere Aussage treffe zu können, untersuchen wir vier verschiedene Spannungsbereiche, nämlich $U_B \in [\SI{1.8}{kV}, \SI{2.0}{kV}]$, $U_B \in [\SI{1.8}{kV}, \SI{2.05}{kV}]$, $U_B \in [\SI{1.85}{kV}, \SI{2.0}{kV}]$ und $U_B \in [\SI{1.85}{kV}, \SI{2.05}{kV}]$
+
+\begin{figure}[htbp]
+	\centering
+   \resizebox{.8\textwidth}{!}{\includegraphics{pmt-4fits.png}}
+   \caption{Lineare Fits zum PMT-Kennlinie. Vier linear Fits (grüne, orange, rote und violette Linien) zum gemessene PMT-Kennlinie (blaue Kreuze) mit den zugehörigen Werten für $\chi^2 / dof$, um die Qualität der Fits zu bestimmen. Der Fit im Bereich $U_{fit} \in [\SI{1.85}{kV}, \SI{2.0}{kV}]$ (orange Linie) minimiert die $\chi^2 / dof$ und zeigt sich als optimale Arbeitsbereich des Raman-Filters.}
+   \label{fig:pmt-fit}
+\end{figure}
+
+Anhand von Fig \ref{fig:pmt-fit} können wir feststellen, dass das Signal proportional zur Spannung im Bereich $U_B \in [\SI{1.85}{kV}, \SI{2.0}{kV}]$ ist, da dort der Wert für $\chi^2/dof$ minimiert wird. Für $U_B \gtrsim \SI{2.0}{kV}$ bricht diesem Proportionalität zusammen. Wir vermuten, dass bei höheren Beschleunigungspannungen die Raman-Filter in Sättigung gerät, wodurch keine sinnvollen Messungen mehr möglich sind. Der Grund dafür liegt vermutlich in der begrenzten Dynamik des Photomultipliers, bwz. die hohe Elektronenvervielfachung überschreit die Kapaziät des PMT. Gleichzeitig, beim hohe $U_B$ Raumladungseffekte, welche die elektrische Feld stören und thermische Effekte, bzw. thermische Emmission von $e^-$, können zur nich-liniaren Effekten führen.
+
+Die Spannungbereich $U_B \in [\SI{1.85}{kV}, \SI{2.0}{kV}]$ wird als der optimaler Arbeitersbereich $U_B^{opt}$ des Raman-Filters definiert. Innerhalb von $U_B^{opt}$ wird die Signal-zu-Rausch-Verhältnis maximiert während das Messgerät außer der Sättigunsbereich betrieben wird.
+
+Basiereend auf die Ergebnissen der Fits, können wir die Mitte des optimales Arbeitsbereich als eine gute Wahl für die Beschleunigungsspannung $U_B \simeq \num{1.925}-\SI{1.95}{\kilo\volt}$ angeben. Bei diesem Wert wird sichergestellt, dass das Messgerät eine hohe Signalstärke im Vergleich zum Rauschen aufweist. Gleichzeitig gewährleistet ein Abstand von ca. \SI{0.05}{kV} bis zum Ende des linearen Bereichs eine stabile Messung.
 
 \section{Raman-Spektrum}
 In diesem Versuchsteil untersuchen wir das Raman-Spektrum von den zwei Kernspinisomeren von Protium und das Spekturm von Deuterium, Sauerstoff und Stickstoff. Zu jeder Messreihe gehört ein gemessenes Untergrundspektrum, das vom Spektrum abgezogen werden muss, um die Zählrate der ramangestreuten Photonen zu isolieren.
@@ -113,7 +126,7 @@ $$\bar{\nu}_{Laser} = \SI{18777.58}{\centi\meter^{-1}}$$
 
 Um die Position der gemessenen Raman-Linien quantitativ zu betrachten, passen wir eine Voigt-Verteilung an die einzelnen erkennbaren Peaks an, und als Fit-Funktion wird die Summe der einzelnen angepassten Voigt-Profile verwendet. Die Voigt-Verteilung ist durch die Faltung einer Gauß- und einer Breit-Wigner-Verteilung definiert. Die Messwerte und die Fit-Funktion werden in Fig. \ref{fig:Deuterium} dargestellt. 
 
-Durch Vergleich der gemessenen und erwarteten Position der Linien können wir die gemessenen Raman-Linien als die ersten vier Rotationsanregungen erkennen. Die gefundenen und erwarteten Werte werden in Tab. \ref{tab:D2} zusammengefasst und verglichen.
+Durch Vergleich der gemessenen und erwarteten Position der Linien können wir die gemessenen Raman-Linien als die ersten vier Rotationsanregungen erkennen. Die gefundenen und erwarteten Werte werden in Tab. \ref{tab:D2} zusammengefasst und verglichen. Als Fehler w
 
 \begin{figure}[htbp]
 	\centering
