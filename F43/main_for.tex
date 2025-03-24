@@ -147,10 +147,10 @@ Durch Vergleich der gemessenen und erwarteten Position der Linien können wir di
  					 & gemessen & erwartet &    			\\ 
   \hline
 	\hline 
-0 & $\num{18471.7\pm 1.1}$	& 18507.17	& 33.4 \\
-1 & $\num{18356.5	\pm 0.9}$	& 18385.88	& 31.3 \\
-2 & $\num{18245\pm 3}$	& 18263.60	& 6.5	 \\
-3 & $\num{18129\pm 4}$	& 18141.32	& 3.22 \\
+0 & $\num{18471.7\pm 1.1}$	& 18594.16	& 4.20 \\
+1 & $\num{18356.5	\pm 0.9}$	& 18471.87	& 4.06 \\
+2 & $\num{18245\pm 3}$	& 18349.59	& 2.94	 \\
+3 & $\num{18130\pm 4}$	& 18227.31	& 4.33 \\
 	\hline
   \end{tabular}
   \renewcommand{\arraystretch}{1} 
@@ -197,7 +197,7 @@ Durch Vergleich der erwarteten und gemessenen Wellenzahl der Raman-Spektren von 
    \label{fig:para_H2}
 \end{figure}
 
-Wie erwartet können wir sehen, dass die Raman-Linien der ungeraden Vibrationsquanten im para-$H_2$-Spektrum unterdrückt werden, Fig. \ref{fig:para_H2}, da diese zu ortho-Wasserstoff gehören. Wir erinnern uns, dass die beiden Wasserstoffisomeren Spin 0 (para) und 1 (ortho) besitzen und daher nur gerade (para) oder ungerade (ortho) Zustände zulassen, aber nicht beide. Die kleine, aber endliche Intensität der zweiten Rotationsanregung, $I_{\nu  = 1 \to 3}$, zeigt, dass die para-Wasserstoff-Probe noch eine endliche Anzahl an ortho-$H_2$ enthält. Durch Berechnung des Verhältnisses zwischen der Intensität der ersten $I_{\nu  = 0 \to 2}$ und der zweiten $I_{\nu  = 1 \to 3}$ Raman-Linie können wir feststellen, dass die para-$H_2$-Probe aus 1 Teil ortho- und 25 Teilen para-Wasserstoff besteht (1:25). Daher besteht die Probe zu ca. $96.2\%$ aus para-Wasserstoff, und die Reinheit kann als hoch beurteilt werden. Wird das Verhältnis der beiden Intensitäten mit den Fitparametern des normalen Wasserstoffs berechnet
+Wie erwartet können wir sehen, dass die Raman-Linien der ungeraden Vibrationsquanten im para-$H_2$-Spektrum unterdrückt werden, Fig. \ref{fig:para_H2}, da diese zu ortho-Wasserstoff gehören. Wir erinnern uns, dass die beiden Wasserstoffisomeren Spin 0 (para) und 1 (ortho) besitzen und daher nur gerade (para) oder ungerade (ortho) Zustände zulassen, aber nicht beide. Die kleine, aber endliche Intensität der zweiten Rotationsanregung, $I_{\nu  = 1 \to 3}$, zeigt, dass die para-Wasserstoff-Probe noch eine endliche Anzahl an ortho-$H_2$ enthält. Durch Berechnung des Verhältnisses zwischen der Intensität der ersten $I_{\nu  = 0 \to 2}$ und der zweiten $I_{\nu  = 1 \to 3}$ Raman-Linie können wir feststellen, dass die para-$H_2$-Probe aus 1 Teil ortho- und 25 Teilen para-Wasserstoff besteht (1:25). Daher besteht die Probe zu ca. $\left(96.24\pm0.01\right)\%$ aus para-Wasserstoff, und die Reinheit kann als hoch beurteilt werden. Wird das Verhältnis der beiden Intensitäten mit den Fitparametern des normalen Wasserstoffs berechnet
 
 \begin{equation}
 	\frac{g_\text{normal}}{g_\text{para}}=3\cdot\frac{I_\text{normal}^0}{I_\text{normal}^1}\cdot\frac{I_\text{para}^0}{I_\text{para}^1},
@@ -269,9 +269,9 @@ Die gemessene Breite der Raman-Linie wurde als
 $$\delta \lambda = \SI{0.885 \pm 0.005}{\nano\meter}$$
 bestimmt. Durch Verwendung von Gl. \ref{eq:dopp_breite} schätzen wir
 $$\delta \lambda =  \SI{3.284\pm 0.005}{\pico\meter}$$
-ab. Diese schnelle Abschätzung zeigt, dass, obwohl die Dopplerverbreiterung zur Breite der Spektrallinien beiträgt, dieses Phänomen allein die gemessene Breite der Rotations-Raman-Linien nicht erklären kann.
+ab. Diese schnelle Abschätzung zeigt, dass, obwohl die Dopplerverbreiterung zur Breite der Spektrallinien beiträgt, dieses Phänomen allein die gemessene Breite der Rotations-Raman-Linien nicht erklären kann. Auch die Energie-Zeit-Unschärferelation der Verbreiterungsquellen ist hierfür nicht ausschlaggebend, da dessen beitrag noch kleiner ist. 
 
-Wir vermuten, dass andere Verbreiterungsquellen wie die Energie-Zeit-Unschärferelation und die Auflösung unseres Detektors zur gemessenen Breite beitragen. Leider sind weder die Lebensdauer des virtuellen Zustands noch das Auflösungsvermögen unseres Detektors bekannt, um diese weiteren Phänomene qualitativ abschätzen zu können.
+Wir vermuten, das die Auflösung unseres Detektors zur gemessenen Breite beitragen. Laut Herrsteller des  HR-320 liegt diese bei  $\sim 0.4\,$\AA.
 
 \subsection{Vibrationsanregung von Sauerstoff und Stickstoff}
 In diesem letzten Abschnitt betrachten wir das Vibrations-Raman-Spektrum von Stickstoff und Sauerstoff. Aufgrund der höheren reduzierten Masse und des größeren Atomabstands beider Moleküle ist die Rotationskonstante deutlich kleiner als die Rotationskonstante von Wasserstoff, und die Auflösung unseres Versuchsaufbaus ist nicht hoch genug, um die Rotationsstruktur aufzulösen. Trotzdem können wir, da die Vibrationsanregungen eine höhere Energie besitzen, die erste Schwingungsanregung auflösen und messen.
@@ -301,7 +301,7 @@ E_{vib} = hc\bar{\nu}_{Laser} - hc\bar{\nu}_{Fit}
 \end{equation}
 einsetzen, um die Schwingungsübergangsenergie zu bestimmen.
 
-In der Literatur [W. Hack, Molekülephysik und Quantenchemie] finden wir folgende Werte für die Raman-Linien:
+In der Literatur \textit{Molekülephysik und Quantenchemie} von W. Hack finden wir folgende Werte für die Raman-Linien:
 $$\bar{\nu}^{O_2}_{lit} = \SI{17135.29}{cm^{-1}}$$
 $$\bar{\nu}^{N_2}_{lit} = \SI{16360.89}{cm^{-1}}$$
 
@@ -319,15 +319,15 @@ Die berechneten und gemessenen Werte werden in Tab. \ref{tab:N_O} zusammengefass
  					 & gemessen & erwartet &    			\\
   \hline
   \hline
-  $O_2$	&	$\num{182.88 \pm 0.07}$	&	$\num{192.95}$ &	1311\\
-  $N_2$	&	$\num{278.4 \pm 0.5}$	&	$\num{288.96}$&	261\\ 
+  $O_2$	&	$\num{193.54 \pm 0.07}$	&	$\num{192.95}$ &	8.4\\
+  $N_2$	&	$\num{289.1 \pm 0.5}$	&	$\num{288.96}$&	0.28\\ 
   \hline
   \end{tabular}
   \renewcommand{\arraystretch}{1}
  \end{center}
 \end{table}
 
-\section{Zusammenfassung und Diskussion}
+\section{Diskussion und kritische Würdigung}
 In diesem Versuch haben wir Raman-Spektroskopie verwendet, um die Rotations- und Schwingungseingenschaften verschiedener Moleküle zu untersucht.
 
 Der Versuch begann mit der Charakterisierung des Raman-Kantenfilters, bei dem die Abhängigkeit der Photodiodenspannung vom Einfallswinkel gemessen wurde. Dabei wurden die Cut-on-Winkel von $\vartheta_1 = \left(-8.18\pm 0.17\right)^\circ$ und $\vartheta_2 =\left(10.36\pm 0.21\right)^\circ$ bestimmt. 
@@ -337,25 +337,16 @@ Im nächsten Schritt wurde die PMT-Kennlinie untersucht, um die Abhängigkeit de
 In dieser ersten Versuchsteil traten allerdings Probleme mit der Laserstabilität auf, die zu fehlerhaften Messungen führten. Da das Gerät nicht rechtzeitig repariert werden konnte, wurden ältere Messwerte des Betreuers verwendet, um die Auswertung durchzuführen.
 
 Der Hauptteil des Versuchs bestand in der Untersuchung der Raman-Spektren verschiedener Moleküle. Zunächst wurde das Rotationsspektrum von Deuterium analysiert. Es konnten vier Raman-Linien identifiziert werden, die den ersten vier Rotationsanregungen entsprachen. Die experimentell bestimmte Rotationskonstante $B_{exp}^{D_2} = \left(28.5\pm 0.5\right)\mathrm{cm}^{-1}$ wich jedoch signifikant vom Literaturwert $B_{lit}^{D_2} = 30.57\mathrm{cm}^{-1}$ ab. Auch die reduzierte Masse $\mu_{exp}^{D_2} = \left(1.079\pm0.019\right)$u zeigte eine Abweichung vom erwarteten Wert.
-
 %TODO Fehlerdiscussion Deuterium
-
-Anschließend wurden die Raman-Spektren von ortho- und para-Wasserstoff untersucht. Dabei zeigten sich die erwarteten Rotationsanregungen, und die Reinheit der para-Wasserstoff-Probe wurde auf etwa $96.2\%$ geschätzt. Die experimentell bestimmten Rotationskonstanten $B_{exp}^{H_2} = \left(57.8\pm0.3\right)\mathrm{cm}^{-1}$ (normal) und $B_{exp}^{H_2} = \left(57.8\pm0.9\right)\mathrm{cm}^{-1}$ (para) wichen ebenfalls vom Literaturwert $B_{lit}^{H_2} = 61.0841\mathrm{cm}^{-1}$ ab. Bei der Analyse der para-Wasserstoff-Probe wurde festgestellt, dass die Untergrundmessung nicht erfolgreich war, was zu einer Verschiebung des Spektrums führte und die Genauigkeit der Fitparameter beeinträchtigte.
-
+Anschließend wurden die Raman-Spektren von ortho- und para-Wasserstoff untersucht. Dabei zeigten sich die erwarteten Rotationsanregungen, und die Reinheit der para-Wasserstoff-Probe wurde auf etwa $\left(96.24\pm0.01\right)\,\%$ geschätzt. Die experimentell bestimmten Rotationskonstanten $B_{exp}^{H_2} = \left(57.8\pm0.3\right)\mathrm{cm}^{-1}$ (normal) und $B_{exp}^{H_2} = \left(57.8\pm0.9\right)\mathrm{cm}^{-1}$ (para) wichen ebenfalls vom Literaturwert $B_{lit}^{H_2} = 61.0841\mathrm{cm}^{-1}$ ab. Bei der Analyse der para-Wasserstoff-Probe wurde festgestellt, dass die Untergrundmessung nicht erfolgreich war, was zu einer Verschiebung des Spektrums führte und die Genauigkeit der Fitparameter beeinträchtigte.
 %TODO Fehlerdiscussion Para und normal H_2 (die Verbreitung der Linien erwähnen)
-
-Schließlich wurden die Vibrations-Raman-Spektren von Sauerstoff und Stickstoff untersucht. Aufgrund der höheren reduzierten Massen und des größeren Atomabstands dieser Moleküle war die Rotationsstruktur nicht auflösbar, jedoch konnte die erste Schwingungsanregung gemessen werden. Die gemessenen Schwingungsenergien betrugen $E_{vib} =\left(182.88\pm0.07\right)$ meV für O$_2$ und $E_{vib} =\left(278.4\pm0.5\right)$ meV für N$_2$. Diese Werte wichen jedoch stark von den erwarteten Werten ab, was auf mögliche systematische Fehler in der Messapparatur oder Probleme bei der Untergrundkorrektur hindeutet.
-
+Schließlich wurden die Vibrations-Raman-Spektren von Sauerstoff und Stickstoff untersucht. Aufgrund der höheren reduzierten Massen und des größeren Atomabstands dieser Moleküle war die Rotationsstruktur nicht auflösbar, jedoch konnte die erste Schwingungsanregung gemessen werden. Die gemessenen Schwingungsenergien betrugen \newline$E_{vib} =\left(193.54 \pm 0.07\right)$ meV für O$_2$ und $E_{vib} =\left(289.1 \pm 0.5\right)$ meV für N$_2$. Diese Werte wich jedoch stark von den erwarteten Werten für Sauerstoff ab.
 %TODO ich würde erwähnen dass obwohl wir ein Voit-Verteilung verwendent haben, es hat sich später festgestellt, dass die Genauigkeit mit ein Gausfit höher ist. Trotzdem die beide Funktionen geben sehr ähnliche Werte. Wir empfehlen ein Gaus-Verteilung zu verwenden und nicht ein Voigt. 
+Die verwendung von einer Voigt Funktion zum fitten der Messwerte folgte aus dessen Eigenschaft eine faltung aus Cauchy-Lorentz  und Gauss-Verteilung zu sein. Jedoch zeigte sich, dass mit einem einfachen Gaus-fit, die resultierenden Parameter mit denen des Voigt-fits übereinstimmen und sogar dessen Unsicherheit verbessert.
 
-
-Für die Auswertung haben wir uns entschieden 
+Das Spektrum der Wasserstoffprobe zeigt zu dem eine Verbreitung der Linien, welche durch die Auflösung des Detektors zu erklären ist. Sowohl die Dopplerverbreitung, als auch die Energie-Zeit-Unschärferelation tragen vergleichsmäßig wenig bei.
 
 Insgesamt zeigt der Versuch, dass die Raman-Spektroskopie eine leistungsstarke Methode zur Untersuchung molekularer Eigenschaften ist. Allerdings traten während der Messungen mehrere technische Schwierigkeiten auf, insbesondere die Instabilität des Lasers und Probleme bei der Untergrundkorrektur, die die Genauigkeit der Ergebnisse beeinträchtigten. Trotz dieser Herausforderungen konnten durch Verwenden vom alten Messwerten die Rotations- und Schwingungsanregungen  analysiert werden. An dieser Stelle, empfehlen wir, dass das Laser mit genügend Zeit vor das Versuchsdurchführung zu testieren, damit die Studenten die Messungen selber durchführen können. 
-
-
-
-
 
 
 \end{document}
